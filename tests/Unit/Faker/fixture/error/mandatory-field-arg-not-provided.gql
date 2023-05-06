@@ -1,0 +1,8 @@
+query {
+  posts(pagination: { limit: 3 }, sort: { by: ID, order: ASC }) {
+    _implements
+  }
+  customPosts(pagination: { limit: 3 }, sort: { by: ID, order: ASC }) {
+    _isObjectType
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "errors": [
+    {
+      "message": "The oneof input object 'UserByInput' must receive exactly 1 input, but 2 inputs were provided ('id', 'username')",
+      "locations": [
+        {
+          "line": 2,
+          "column": 12
+        }
+      ],
+      "extensions": {
+        "path": [
+          "{id: 1, username: \"themedemos\"}",
+          "(by: {id: 1, username: \"themedemos\"})",
+          "user(by: {id: 1, username: \"themedemos\"}) { ... }",
+          "query { ... }"
+        ],
+        "type": "QueryRoot",
+        "field": "user(by: {id: 1, username: \"themedemos\"}) { ... }",
+        "code": "gql@5.6.1[6]",
+        "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Values-of-Correct-Type"
+      }
+    }
+  ],
+  "data": {
+    "user": null
+  }
+}

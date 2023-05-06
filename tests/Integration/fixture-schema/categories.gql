@@ -1,0 +1,86 @@
+{
+  categories(taxonomy: "dummy-category") {
+    __typename
+    ...GenericCategoryData
+    ...CategoryData
+  }
+  
+  customPosts(
+    filter: {
+      customPostTypes: ["post","dummy-cpt"]
+    }
+    pagination: {
+      limit: 30
+    }
+  ) {
+    __typename
+    ...on CustomPost {
+      id
+      title
+      customPostType
+    }
+    ...on GenericCustomPost {
+      categories(taxonomy: "dummy-category") {
+        __typename
+        id
+        name
+        taxonomy
+      }
+    }
+    ...on Post {
+      categories {
+        __typename
+        id
+        name
+      }
+    }
+  }
+
+  customPostsByCategoryIDs: customPosts(
+    filter: {
+      categoryIDs: [32, 34]
+      categoryTaxonomy: "dummy-category"
+    }
+  ) {
+    id
+    title
+    ...on GenericCustomPost {
+      categories(taxonomy: "dummy-category") {
+        id
+      }
+    }
+  }
+}
+
+fragment CategoryData on Category {
+  count
+  description
+  id
+  metaValue(key: "not-existing")
+  metaValues(key: "also-not-existing")
+  name
+  slug
+  url
+  urlPath
+}
+
+fragment GenericCategoryData on GenericCategory {
+  taxonomy   
+  customPostCount
+  customPosts {
+    __typename
+    ...CustomPostData
+  }
+}
+
+fragment CustomPostData on CustomPost {
+  id
+  title
+  categories(taxonomy: "dummy-category") {
+    __typename
+    ...on Category {
+      id
+      name
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+    "data": {
+        "customPostsByIDs": [
+            {
+                "id": 619,
+                "title": "Error debitis nulla vel est",
+                "tags": [
+                    {
+                        "id": 33
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 32
+                    }
+                ]
+            },
+            {
+                "id": 639,
+                "title": "Quaerat repudiandae voluptatem voluptas aut ab molestiae",
+                "tags": [
+                    {
+                        "id": 28
+                    },
+                    {
+                        "id": 26
+                    },
+                    {
+                        "id": 33
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 34
+                    },
+                    {
+                        "id": 36
+                    }
+                ]
+            },
+            {
+                "id": 644,
+                "title": "Impedit eaque numquam quas inventore",
+                "tags": [
+                    {
+                        "id": 28
+                    },
+                    {
+                        "id": 31
+                    },
+                    {
+                        "id": 29
+                    },
+                    {
+                        "id": 26
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 37
+                    },
+                    {
+                        "id": 35
+                    },
+                    {
+                        "id": 36
+                    },
+                    {
+                        "id": 32
+                    }
+                ]
+            },
+            {
+                "id": 627,
+                "title": "Quis voluptatum tempore veniam est sit",
+                "tags": [
+                    {
+                        "id": 31
+                    },
+                    {
+                        "id": 27
+                    },
+                    {
+                        "id": 29
+                    },
+                    {
+                        "id": 33
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 35
+                    },
+                    {
+                        "id": 34
+                    },
+                    {
+                        "id": 36
+                    }
+                ]
+            },
+            {
+                "id": 631,
+                "title": "Voluptatibus inventore quaerat quas explicabo possimus debitis",
+                "tags": [
+                    {
+                        "id": 28
+                    },
+                    {
+                        "id": 31
+                    },
+                    {
+                        "id": 26
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 35
+                    },
+                    {
+                        "id": 32
+                    },
+                    {
+                        "id": 25
+                    }
+                ]
+            }
+        ],
+        "customPostsBySlugAndIDs": [
+            {
+                "id": 619,
+                "title": "Error debitis nulla vel est",
+                "tags": [
+                    {
+                        "slug": "classical"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 32
+                    }
+                ]
+            },
+            {
+                "id": 639,
+                "title": "Quaerat repudiandae voluptatem voluptas aut ab molestiae",
+                "tags": [
+                    {
+                        "slug": "tango"
+                    },
+                    {
+                        "slug": "heavy-metal"
+                    },
+                    {
+                        "slug": "classical"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 34
+                    },
+                    {
+                        "id": 36
+                    }
+                ]
+            },
+            {
+                "id": 627,
+                "title": "Quis voluptatum tempore veniam est sit",
+                "tags": [
+                    {
+                        "slug": "rock"
+                    },
+                    {
+                        "slug": "jazz"
+                    },
+                    {
+                        "slug": "hip-hop"
+                    },
+                    {
+                        "slug": "classical"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 35
+                    },
+                    {
+                        "id": 34
+                    },
+                    {
+                        "id": 36
+                    }
+                ]
+            }
+        ]
+    }
+}

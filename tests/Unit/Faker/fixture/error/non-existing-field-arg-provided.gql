@@ -1,0 +1,10 @@
+query {
+  posts(pagination: { limit: 3 }, sort: { by: ID, order: ASC }) {
+    __typename
+    _implements(interface: "SomeInterface", type: "DoesntMatter")
+  }
+  customPosts(pagination: { limit: 3 }, sort: { by: ID, order: ASC }) {
+    __typename
+    _isObjectType(type: "SomeType", interface: "DoesntMatter")
+  }
+}

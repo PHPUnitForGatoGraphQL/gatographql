@@ -1,0 +1,11 @@
+############################################################
+# After having disabled module "Users",
+# check if the User type is available or not
+############################################################
+{
+  __schema {
+    userType: type(name: "User") {
+      name
+    }
+  }
+}

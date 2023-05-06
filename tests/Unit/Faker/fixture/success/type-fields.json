@@ -1,0 +1,44 @@
+{
+  "data": {
+    "customPosts": [
+      {
+        "__typename": "Post",
+        "_isObjectType": true,
+        "_implements": true,
+        "_isInUnionType": true
+      },
+      {
+        "__typename": "Page",
+        "_isObjectType": false,
+        "_implements": true,
+        "_isInUnionType": true
+      },
+      {
+        "__typename": "Page",
+        "_isObjectType": false,
+        "_implements": true,
+        "_isInUnionType": true
+      }
+    ],
+    "users": [
+      {
+        "__typename": "User",
+        "_isObjectType": false,
+        "_implements": false,
+        "_isInUnionType": false
+      },
+      {
+        "__typename": "User",
+        "_isObjectType": false,
+        "_implements": false,
+        "_isInUnionType": false
+      },
+      {
+        "__typename": "User",
+        "_isObjectType": false,
+        "_implements": false,
+        "_isInUnionType": false
+      }
+    ]
+  }
+}

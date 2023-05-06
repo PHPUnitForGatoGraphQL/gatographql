@@ -1,0 +1,12 @@
+query {
+  # The input expects a String, but passing an Array/InputObject
+  passingArray: post(by: { slug: ["block-category-common"] }) {
+    id
+  }
+  passingInputObject: post(by: { slug: {slug: "block-category-common"} }) {
+    id
+  }
+  passingNonDate: posts(filter: { dateQuery: {after: 1.0} }) {
+    id
+  }
+}

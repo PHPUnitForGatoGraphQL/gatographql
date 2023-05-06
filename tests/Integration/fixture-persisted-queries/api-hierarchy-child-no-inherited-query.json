@@ -1,0 +1,36 @@
+{
+    "data": {
+        "posts": [
+            {
+                "id": 28,
+                "slug": "http-caching-improves-performance",
+                "title": "HTTP caching improves performance",
+                "author": {
+                    "id": 5,
+                    "username": "author",
+                    "slug": "author"
+                }
+            },
+            {
+                "id": 25,
+                "slug": "public-or-private-api-mode-for-extra-security",
+                "title": "Public or Private API mode, for extra security",
+                "author": {
+                    "id": 2,
+                    "username": "blogger",
+                    "slug": "blogger"
+                }
+            },
+            {
+                "id": 23,
+                "slug": "graphql-or-rest-you-can-have-both",
+                "title": "GraphQL or REST? Why not both?",
+                "author": {
+                    "id": 2,
+                    "username": "blogger",
+                    "slug": "blogger"
+                }
+            }
+        ]
+    }
+}

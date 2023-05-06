@@ -1,0 +1,72 @@
+{
+    "errors": [
+        {
+            "message": "Argument 'slug' does not expect an array, but array '[\"block-category-common\"]' was provided",
+            "locations": [
+                {
+                    "line": 3,
+                    "column": 26
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "{slug: [\"block-category-common\"]}",
+                    "(by: {slug: [\"block-category-common\"]})",
+                    "passingArray: post(by: {slug: [\"block-category-common\"]}) { ... }",
+                    "query { ... }"
+                ],
+                "type": "QueryRoot",
+                "field": "passingArray: post(by: {slug: [\"block-category-common\"]}) { ... }",
+                "code": "gql@5.6.1[8]",
+                "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Values-of-Correct-Type"
+            }
+        },
+        {
+            "message": "An object cannot be cast to type 'String'",
+            "locations": [
+                {
+                    "line": 6,
+                    "column": 32
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "{slug: {slug: \"block-category-common\"}}",
+                    "(by: {slug: {slug: \"block-category-common\"}})",
+                    "passingInputObject: post(by: {slug: {slug: \"block-category-common\"}}) { ... }",
+                    "query { ... }"
+                ],
+                "type": "QueryRoot",
+                "field": "passingInputObject: post(by: {slug: {slug: \"block-category-common\"}}) { ... }",
+                "code": "gql@5.6.1[1]",
+                "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Values-of-Correct-Type"
+            }
+        },
+        {
+            "message": "Type 'Date' must be provided as a string",
+            "locations": [
+                {
+                    "line": 9,
+                    "column": 33
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "{dateQuery: {after: 1}}",
+                    "(filter: {dateQuery: {after: 1}})",
+                    "passingNonDate: posts(filter: {dateQuery: {after: 1}}) { ... }",
+                    "query { ... }"
+                ],
+                "type": "QueryRoot",
+                "field": "passingNonDate: posts(filter: {dateQuery: {after: 1}}) { ... }",
+                "code": "gql@5.6.1[3]",
+                "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Values-of-Correct-Type"
+            }
+        }
+    ],
+    "data": {
+        "passingArray": null,
+        "passingInputObject": null,
+        "passingNonDate": null
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "errors": [
+    {
+      "message": "There is no field 'email' on type 'User'",
+      "locations": [
+        {
+          "line": 4,
+          "column": 5
+        }
+      ],
+      "extensions": {
+        "type": "User",
+        "field": "email",
+        "path": [
+          "email",
+          "user(by: {id: 2}) { ... }",
+          "query { ... }"
+        ],
+        "code": "gql@5.3.1",
+        "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Field-Selections"
+      }
+    }
+  ],
+  "data": {
+    "user": {
+      "name": "Blogger Davenport",
+      "email": null
+    }
+  }
+}

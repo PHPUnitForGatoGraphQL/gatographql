@@ -1,0 +1,26 @@
+{
+  "errors": [
+    {
+      "message": "Mandatory argument 'input' in field 'addCommentToCustomPost' of type 'MutationRoot' has not been provided",
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ],
+      "extensions": {
+        "path": [
+          "addCommentToCustomPost { ... }",
+          "mutation { ... }"
+        ],
+        "type": "MutationRoot",
+        "field": "addCommentToCustomPost { ... }",
+        "code": "gql@5.4.2.1[a]",
+        "specifiedBy": "https://spec.graphql.org/draft/#sec-Required-Arguments"
+      }
+    }
+  ],
+  "data": {
+    "addCommentToCustomPost": null
+  }
+}

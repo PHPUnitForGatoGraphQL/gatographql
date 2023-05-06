@@ -1,0 +1,149 @@
+{
+  "errors": [
+    {
+      "message": "Value 'attachment' for type 'CustomPostEnumString' is not valid (the only valid values are: 'dummy-cpt', 'page', 'post')",
+      "locations": [
+        {
+          "line": 3,
+          "column": 12
+        }
+      ],
+      "extensions": {
+        "path": [
+          "{customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}",
+          "(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]})",
+          "customPosts(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}, pagination: {limit: 12}, sort: {by: ID, order: ASC}) { ... }",
+          "query { ... }"
+        ],
+        "type": "QueryRoot",
+        "field": "customPosts(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}, pagination: {limit: 12}, sort: {by: ID, order: ASC}) { ... }",
+        "code": "PoPSchema\/SchemaCommons@e2"
+      }
+    },
+    {
+      "message": "Value 'nav_menu_item' for type 'CustomPostEnumString' is not valid (the only valid values are: 'dummy-cpt', 'page', 'post')",
+      "locations": [
+        {
+          "line": 3,
+          "column": 12
+        }
+      ],
+      "extensions": {
+        "path": [
+          "{customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}",
+          "(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]})",
+          "customPosts(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}, pagination: {limit: 12}, sort: {by: ID, order: ASC}) { ... }",
+          "query { ... }"
+        ],
+        "type": "QueryRoot",
+        "field": "customPosts(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}, pagination: {limit: 12}, sort: {by: ID, order: ASC}) { ... }",
+        "code": "PoPSchema\/SchemaCommons@e2"
+      }
+    },
+    {
+      "message": "Value 'custom_css' for type 'CustomPostEnumString' is not valid (the only valid values are: 'dummy-cpt', 'page', 'post')",
+      "locations": [
+        {
+          "line": 3,
+          "column": 12
+        }
+      ],
+      "extensions": {
+        "path": [
+          "{customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}",
+          "(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]})",
+          "customPosts(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}, pagination: {limit: 12}, sort: {by: ID, order: ASC}) { ... }",
+          "query { ... }"
+        ],
+        "type": "QueryRoot",
+        "field": "customPosts(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}, pagination: {limit: 12}, sort: {by: ID, order: ASC}) { ... }",
+        "code": "PoPSchema\/SchemaCommons@e2"
+      }
+    },
+    {
+      "message": "Value 'revision' for type 'CustomPostEnumString' is not valid (the only valid values are: 'dummy-cpt', 'page', 'post')",
+      "locations": [
+        {
+          "line": 3,
+          "column": 12
+        }
+      ],
+      "extensions": {
+        "path": [
+          "{customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}",
+          "(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]})",
+          "customPosts(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}, pagination: {limit: 12}, sort: {by: ID, order: ASC}) { ... }",
+          "query { ... }"
+        ],
+        "type": "QueryRoot",
+        "field": "customPosts(filter: {customPostTypes: [\"post\", \"page\", \"attachment\", \"nav_menu_item\", \"custom_css\", \"revision\"], status: [publish, inherit]}, pagination: {limit: 12}, sort: {by: ID, order: ASC}) { ... }",
+        "code": "PoPSchema\/SchemaCommons@e2"
+      }
+    }
+  ],
+  "data": {
+    "customPosts": null,
+    "dummyCustomPosts": [
+      {
+        "__typename": "GenericCustomPost",
+        "id": 649,
+        "title": "Nulla numquam totam eaque",
+        "customPostType": "dummy-cpt"
+      },
+      {
+        "__typename": "GenericCustomPost",
+        "id": 619,
+        "title": "Error debitis nulla vel est",
+        "customPostType": "dummy-cpt"
+      },
+      {
+        "__typename": "GenericCustomPost",
+        "id": 634,
+        "title": "Recusandae vel deleniti est expedita dolores quasi",
+        "customPostType": "dummy-cpt"
+      },
+      {
+        "__typename": "GenericCustomPost",
+        "id": 636,
+        "title": "Ab blanditiis doloremque cupiditate inventore magni ducimus",
+        "customPostType": "dummy-cpt"
+      },
+      {
+        "__typename": "GenericCustomPost",
+        "id": 639,
+        "title": "Quaerat repudiandae voluptatem voluptas aut ab molestiae",
+        "customPostType": "dummy-cpt"
+      },
+      {
+        "__typename": "GenericCustomPost",
+        "id": 622,
+        "title": "Dolore ex et deleniti mollitia",
+        "customPostType": "dummy-cpt"
+      },
+      {
+        "__typename": "GenericCustomPost",
+        "id": 648,
+        "title": "Nostrum consequatur non fugit vel",
+        "customPostType": "dummy-cpt"
+      },
+      {
+        "__typename": "GenericCustomPost",
+        "id": 644,
+        "title": "Impedit eaque numquam quas inventore",
+        "customPostType": "dummy-cpt"
+      },
+      {
+        "__typename": "GenericCustomPost",
+        "id": 630,
+        "title": "Corrupti voluptatem asperiores nam exercitationem corrupti",
+        "customPostType": "dummy-cpt"
+      },
+      {
+        "__typename": "GenericCustomPost",
+        "id": 641,
+        "title": "Impedit necessitatibus dolor est",
+        "customPostType": "dummy-cpt"
+      }
+    ]
+  }
+}

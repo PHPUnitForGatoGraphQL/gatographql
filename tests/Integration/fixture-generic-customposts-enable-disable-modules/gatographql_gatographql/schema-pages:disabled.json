@@ -1,0 +1,32 @@
+{
+    "data": {
+        "customPosts": [
+            {
+                "id": 666,
+                "title": "Another Page",
+                "customPostType": "page",
+                "__typename": "GenericCustomPost"
+            },
+            {
+                "id": 2,
+                "title": "Sample Page",
+                "customPostType": "page",
+                "__typename": "GenericCustomPost"
+            }
+        ],
+        "__schema": {
+            "pageType": null,
+            "customPostUnionType": {
+                "name": "CustomPostUnion",
+                "possibleTypes": [
+                    {
+                        "name": "GenericCustomPost"
+                    },
+                    {
+                        "name": "Post"
+                    }
+                ]
+            }
+        }
+    }
+}

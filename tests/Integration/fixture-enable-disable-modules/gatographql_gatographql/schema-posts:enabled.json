@@ -1,0 +1,18 @@
+{
+    "data": {
+        "posts": [
+            {
+                "id": 1,
+                "title": "Hello world!"
+            },
+            {
+                "id": 13,
+                "title": "Released v0.6, check it out"
+            },
+            {
+                "id": 16,
+                "title": "Working on flat chain syntax next"
+            }
+        ]
+    }
+}

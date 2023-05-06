@@ -1,0 +1,18 @@
+{
+    "data": {
+        "passingBoolean": null,
+        "passingInt": null,
+        "passingFloat": null,
+        "passingDate": [
+            {
+                "id": 1724
+            },
+            {
+                "id": 1730
+            },
+            {
+                "id": 1732
+            }
+        ]
+    }
+}

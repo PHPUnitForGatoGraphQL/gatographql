@@ -1,0 +1,77 @@
+{
+    "errors": [
+        {
+            "message": "In union type 'CustomPostUnion', data for object with ID '733' cannot be loaded (possibly the DataLoader produced a wrong ID, or the data is corrupted, or no TypeResolver in the Union can handle the type of this object)",
+            "extensions": {
+                "type": "CustomPostUnion",
+                "code": "PoP\/ComponentModel@e10"
+            }
+        },
+        {
+            "message": "In union type 'CustomPostUnion', data for object with ID '735' cannot be loaded (possibly the DataLoader produced a wrong ID, or the data is corrupted, or no TypeResolver in the Union can handle the type of this object)",
+            "extensions": {
+                "type": "CustomPostUnion",
+                "code": "PoP\/ComponentModel@e10"
+            }
+        },
+        {
+            "message": "In union type 'CustomPostUnion', data for object with ID '733' cannot be loaded (possibly the DataLoader produced a wrong ID, or the data is corrupted, or no TypeResolver in the Union can handle the type of this object)",
+            "locations": [
+                {
+                    "line": 4,
+                    "column": 5
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "__typename",
+                    "customPosts(filter: {ids: [1724, 358, 733, 735, 555]}) { ... }",
+                    "query { ... }"
+                ],
+                "type": "CustomPostUnion",
+                "field": "__typename",
+                "code": "PoP\/ComponentModel@e10"
+            }
+        },
+        {
+            "message": "In union type 'CustomPostUnion', data for object with ID '735' cannot be loaded (possibly the DataLoader produced a wrong ID, or the data is corrupted, or no TypeResolver in the Union can handle the type of this object)",
+            "locations": [
+                {
+                    "line": 4,
+                    "column": 5
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "__typename",
+                    "customPosts(filter: {ids: [1724, 358, 733, 735, 555]}) { ... }",
+                    "query { ... }"
+                ],
+                "type": "CustomPostUnion",
+                "field": "__typename",
+                "code": "PoP\/ComponentModel@e10"
+            }
+        }
+    ],
+    "data": {
+        "customPosts": [
+            {
+                "__typename": "Post",
+                "id": 1724,
+                "title": "Keyboard navigation"
+            },
+            {
+                "__typename": "Post",
+                "id": 358,
+                "title": "Post Format: Standard"
+            },
+            [],
+            [],
+            {
+                "__typename": "Post",
+                "id": 555,
+                "title": "Post Format: Gallery"
+            }
+        ]
+    }
+}

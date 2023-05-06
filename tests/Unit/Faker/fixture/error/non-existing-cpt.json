@@ -1,0 +1,27 @@
+{
+  "errors": [
+    {
+      "message": "Value 'nonExistingCPT' for type 'CustomPostEnumString' is not valid (the only valid values are: 'page', 'post')",
+      "locations": [
+        {
+          "line": 3,
+          "column": 13
+        }
+      ],
+      "extensions": {
+        "path": [
+          "{customPostTypes: \"nonExistingCPT\"}",
+          "(filter: {customPostTypes: \"nonExistingCPT\"})",
+          "customPosts(filter: {customPostTypes: \"nonExistingCPT\"}) { ... }",
+          "query { ... }"
+        ],
+        "type": "QueryRoot",
+        "field": "customPosts(filter: {customPostTypes: \"nonExistingCPT\"}) { ... }",
+        "code": "PoPSchema\/SchemaCommons@e2"
+      }
+    }
+  ],
+  "data": {
+    "customPosts": null
+  }
+}

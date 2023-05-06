@@ -1,0 +1,14 @@
+{
+    "data": {
+        "posts": [
+            {
+                "id": 28,
+                "title": "HTTP caching improves performance"
+            },
+            {
+                "id": 1,
+                "title": "Hello world!"
+            }
+        ]
+    }
+}

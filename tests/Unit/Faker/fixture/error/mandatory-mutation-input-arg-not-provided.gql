@@ -1,0 +1,7 @@
+mutation {
+  addCommentToCustomPost(input: {
+    comment: null
+  }) {
+    commentID
+  }
+}

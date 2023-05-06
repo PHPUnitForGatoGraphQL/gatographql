@@ -1,0 +1,23 @@
+{
+  customPosts(
+    pagination: {
+      limit: 3
+    }
+  ) {
+    __typename
+    _isObjectType(type: "Post")
+    _implements(interface: "CustomPost")
+    _isInUnionType(type: "CustomPostUnion")
+  }
+
+  users(
+    pagination: {
+      limit: 3
+    }
+  ) {
+    __typename
+    _isObjectType(type: "Post")
+    _implements(interface: "CustomPost")
+    _isInUnionType(type: "CustomPostUnion")
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "data": {
+        "user": {
+            "name": "Blogger Davenport",
+            "email": "blogger@test.com",
+            "posts": [
+                {
+                    "id": 25,
+                    "title": "Public or Private API mode, for extra security"
+                },
+                {
+                    "id": 23,
+                    "title": "GraphQL or REST? Why not both?"
+                },
+                {
+                    "id": 21,
+                    "title": "Customize the schema for each client"
+                },
+                {
+                    "id": 1,
+                    "title": "Hello world!"
+                }
+            ]
+        }
+    }
+}

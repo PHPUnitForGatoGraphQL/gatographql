@@ -1,0 +1,41 @@
+{
+  customPostsByIDs: customPosts(
+    filter: {
+      tagIDs: [26, 33]
+      tagTaxonomy: "dummy-tag"
+      categoryIDs: [32, 34]
+      categoryTaxonomy: "dummy-category"
+    }
+  ) {
+    id
+    title
+    ...on GenericCustomPost {
+      tags(taxonomy: "dummy-tag") {
+        id
+      }
+      categories(taxonomy: "dummy-category") {
+        id
+      }
+    }
+  }
+
+  customPostsBySlugAndIDs: customPosts(
+    filter: {
+      tagSlugs: "classical"
+      tagTaxonomy: "dummy-tag"
+      categoryIDs: [32, 34]
+      categoryTaxonomy: "dummy-category"
+    }
+  ) {
+    id
+    title
+    ...on GenericCustomPost {
+      tags(taxonomy: "dummy-tag") {
+        slug
+      }
+      categories(taxonomy: "dummy-category") {
+        id
+      }
+    }
+  }
+}

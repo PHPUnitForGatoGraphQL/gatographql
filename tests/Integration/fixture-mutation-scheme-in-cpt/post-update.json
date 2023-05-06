@@ -1,0 +1,19 @@
+{
+  "data": {
+    "post": {
+      "title": "HTTP caching improves performance",
+      "update": {
+        "status": "SUCCESS",
+        "post": {
+          "title": "HTTP caching improves performance 33333",
+          "update": {
+            "status": "SUCCESS",
+            "post": {
+              "title": "HTTP caching improves performance"
+            }
+          }
+        }
+      }
+    }
+  }
+}

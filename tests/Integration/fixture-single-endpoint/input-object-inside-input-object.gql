@@ -1,0 +1,12 @@
+query {
+  posts(
+    filter: {
+      dateQuery: {
+        before: "2020-04-20"
+      }
+    }
+  ) {
+    id
+    title
+  }
+}

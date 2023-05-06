@@ -1,0 +1,31 @@
+{
+    "errors": [
+        {
+            "message": "Argument 'size' in field 'avatar' of type 'User' cannot be null",
+            "locations": [
+                {
+                    "line": 8,
+                    "column": 18
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "null",
+                    "(size: null)",
+                    "avatar(size: null) { ... }",
+                    "user(by: {id: 1}) { ... }",
+                    "query { ... }"
+                ],
+                "type": "User",
+                "field": "avatar(size: null) { ... }",
+                "code": "gql@5.4.2.1[b]",
+        "specifiedBy": "https://spec.graphql.org/draft/#sec-Required-Arguments"
+            }
+        }
+    ],
+    "data": {
+        "user": {
+            "avatar": null
+        }
+    }
+}

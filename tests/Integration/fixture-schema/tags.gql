@@ -1,0 +1,107 @@
+{
+  tags(taxonomy: "dummy-tag") {
+    __typename
+    ...GenericTagData
+    ...TagData
+  }
+  
+  customPosts(
+    filter: {
+      customPostTypes: ["post","dummy-cpt"]
+    }
+    pagination: {
+      limit: 30
+    }
+  ) {
+    __typename
+    ...on CustomPost {
+      id
+      title
+      customPostType
+    }
+    ...on GenericCustomPost {
+      tags(taxonomy: "dummy-tag") {
+        __typename
+        id
+        name
+        taxonomy
+      }
+    }
+    ...on Post {
+      tags {
+        __typename
+        id
+        name
+      }
+    }
+  }
+
+  customPostsByTagIDs: customPosts(
+    filter: {
+      tagIDs: [26, 33]
+      tagTaxonomy: "dummy-tag"
+    }
+    pagination: {
+      limit: 20
+    }
+  ) {
+    id
+    title
+    ...on GenericCustomPost {
+      tags(taxonomy: "dummy-tag") {
+        id
+      }
+    }
+  }
+
+  customPostsByTagSlugs: customPosts(
+    filter: {
+      tagSlugs: ["tango", "rock"]
+      tagTaxonomy: "dummy-tag"
+    }
+    pagination: {
+      limit: 20
+    }
+  ) {
+    id
+    title
+    ...on GenericCustomPost {
+      tags(taxonomy: "dummy-tag") {
+        slug
+      }
+    }
+  }
+}
+
+fragment TagData on Tag {
+  count
+  description
+  id
+  metaValue(key: "not-existing")
+  metaValues(key: "also-not-existing")
+  name
+  slug
+  url
+  urlPath
+}
+
+fragment GenericTagData on GenericTag {
+  taxonomy   
+  customPostCount
+  customPosts {
+    __typename
+    ...CustomPostData
+  }
+}
+
+fragment CustomPostData on CustomPost {
+  id
+  title
+  tags(taxonomy: "dummy-tag") {
+    __typename
+    ...on Tag {
+      id
+      name
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "data": {
+        "__schema": {
+            "tagUnionType": {
+                "name": "TagUnion",
+                "possibleTypes": [
+                    {
+                        "name": "GenericTag"
+                    },
+                    {
+                        "name": "PostTag"
+                    }
+                ]
+            },
+            "tagTaxonomyEnumType": {
+                "name": "TagTaxonomyEnumString",
+                "extensions": {
+                    "possibleValues": [
+                        "post_format",
+                        "post_tag"
+                    ]
+                }
+            }
+        }
+    }
+}

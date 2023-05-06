@@ -1,0 +1,30 @@
+{
+    "data": {
+        "__schema": {
+            "customPostUnionType": {
+                "name": "CustomPostUnion",
+                "possibleTypes": [
+                    {
+                        "name": "GenericCustomPost"
+                    },
+                    {
+                        "name": "Page"
+                    },
+                    {
+                        "name": "Post"
+                    }
+                ]
+            },
+            "customPostEnumType": {
+                "name": "CustomPostEnumString",
+                "extensions": {
+                    "possibleValues": [
+                        "dummy-cpt",
+                        "page",
+                        "post"
+                    ]
+                }
+            }
+        }
+    }
+}

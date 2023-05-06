@@ -1,0 +1,52 @@
+{
+  "errors": [
+    {
+      "message": "There is no key with name 'nickname'",
+      "locations": [
+        {
+          "line": 4,
+          "column": 25
+        }
+      ],
+      "extensions": {
+        "type": "User",
+        "field": "nickname: metaValue(key: \"nickname\")",
+        "path": [
+          "(key: \"nickname\")",
+          "nickname: metaValue(key: \"nickname\")",
+          "user(by: {id: 3}) { ... }",
+          "query { ... }"
+        ],
+        "code": "PoPCMSSchema/Meta@e1"
+      }
+    },
+    {
+      "message": "There is no key with name 'first_name'",
+      "locations": [
+        {
+          "line": 5,
+          "column": 26
+        }
+      ],
+      "extensions": {
+        "type": "User",
+        "field": "firstname: metaValue(key: \"first_name\")",
+        "path": [
+          "(key: \"first_name\")",
+          "firstname: metaValue(key: \"first_name\")",
+          "user(by: {id: 3}) { ... }",
+          "query { ... }"
+        ],
+        "code": "PoPCMSSchema/Meta@e1"
+      }
+    }
+  ],
+  "data": {
+    "user": {
+      "id": 3,
+      "nickname": null,
+      "firstname": null,
+      "lastname": "Bennett"
+    }
+  }
+}

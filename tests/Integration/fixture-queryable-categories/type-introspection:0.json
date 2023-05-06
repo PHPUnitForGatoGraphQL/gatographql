@@ -1,0 +1,26 @@
+{
+    "data": {
+        "__schema": {
+            "categoryUnionType": {
+                "name": "CategoryUnion",
+                "possibleTypes": [
+                    {
+                        "name": "GenericCategory"
+                    },
+                    {
+                        "name": "PostCategory"
+                    }
+                ]
+            },
+            "categoryTaxonomyEnumType": {
+                "name": "CategoryTaxonomyEnumString",
+                "extensions": {
+                    "possibleValues": [
+                        "category",
+                        "dummy-category"
+                    ]
+                }
+            }
+        }
+    }
+}

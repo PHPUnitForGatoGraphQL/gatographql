@@ -1,0 +1,97 @@
+{
+  "errors": [
+    {
+      "message": "On field '_implements' of type 'Post', there is no argument with name 'type'",
+      "locations": [
+        {
+          "line": 4,
+          "column": 45
+        }
+      ],
+      "extensions": {
+        "path": [
+          "(type: \"DoesntMatter\")",
+          "_implements(interface: \"SomeInterface\", type: \"DoesntMatter\")",
+          "posts(pagination: {limit: 3}, sort: {by: ID, order: ASC}) { ... }",
+          "query { ... }"
+        ],
+        "type": "Post",
+        "field": "_implements(interface: \"SomeInterface\", type: \"DoesntMatter\")",
+        "code": "gql@5.4.1[a]",
+        "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Argument-Names"
+      }
+    },
+    {
+      "message": "On field '_isObjectType' of type 'Post', there is no argument with name 'interface'",
+      "locations": [
+        {
+          "line": 8,
+          "column": 37
+        }
+      ],
+      "extensions": {
+        "path": [
+          "(interface: \"DoesntMatter\")",
+          "_isObjectType(type: \"SomeType\", interface: \"DoesntMatter\")",
+          "customPosts(pagination: {limit: 3}, sort: {by: ID, order: ASC}) { ... }",
+          "query { ... }"
+        ],
+        "type": "Post",
+        "field": "_isObjectType(type: \"SomeType\", interface: \"DoesntMatter\")",
+        "code": "gql@5.4.1[a]",
+        "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Argument-Names"
+      }
+    },
+    {
+      "message": "On field '_isObjectType' of type 'Page', there is no argument with name 'interface'",
+      "locations": [
+        {
+          "line": 8,
+          "column": 37
+        }
+      ],
+      "extensions": {
+        "path": [
+          "(interface: \"DoesntMatter\")",
+          "_isObjectType(type: \"SomeType\", interface: \"DoesntMatter\")",
+          "customPosts(pagination: {limit: 3}, sort: {by: ID, order: ASC}) { ... }",
+          "query { ... }"
+        ],
+        "type": "Page",
+        "field": "_isObjectType(type: \"SomeType\", interface: \"DoesntMatter\")",
+        "code": "gql@5.4.1[a]",
+        "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Argument-Names"
+      }
+    }
+  ],
+  "data": {
+    "posts": [
+      {
+        "__typename": "Post",
+        "_implements": null
+      },
+      {
+        "__typename": "Post",
+        "_implements": null
+      },
+      {
+        "__typename": "Post",
+        "_implements": null
+      }
+    ],
+    "customPosts": [
+      {
+        "__typename": "Post",
+        "_isObjectType": null
+      },
+      {
+        "__typename": "Page",
+        "_isObjectType": null
+      },
+      {
+        "__typename": "Page",
+        "_isObjectType": null
+      }
+    ]
+  }
+}

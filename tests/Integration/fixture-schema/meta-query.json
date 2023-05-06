@@ -1,0 +1,88 @@
+{
+    "data": {
+        "postsOR": [
+            {
+                "id": 25,
+                "title": "Public or Private API mode, for extra security"
+            },
+            {
+                "id": 16,
+                "title": "Working on flat chain syntax next"
+            },
+            {
+                "id": 13,
+                "title": "Released v0.6, check it out"
+            }
+        ],
+        "postsAND": [],
+        "postsWithFeaturedImage": [
+            {
+                "id": 13,
+                "title": "Released v0.6, check it out",
+                "featuredImage": {
+                    "id": 361
+                }
+            },
+            {
+                "id": 16,
+                "title": "Working on flat chain syntax next",
+                "featuredImage": {
+                    "id": 361
+                }
+            },
+            {
+                "id": 25,
+                "title": "Public or Private API mode, for extra security",
+                "featuredImage": {
+                    "id": 362
+                }
+            }
+        ],
+        "postsWithoutFeaturedImage": [
+            {
+                "id": 1,
+                "title": "Hello world!",
+                "featuredImage": null
+            },
+            {
+                "id": 19,
+                "title": "Nested mutations are a must have",
+                "featuredImage": null
+            },
+            {
+                "id": 21,
+                "title": "Customize the schema for each client",
+                "featuredImage": null
+            },
+            {
+                "id": 23,
+                "title": "GraphQL or REST? Why not both?",
+                "featuredImage": null
+            },
+            {
+                "id": 28,
+                "title": "HTTP caching improves performance",
+                "featuredImage": null
+            }
+        ],
+        "spanishLocaleUsers": [
+            {
+                "id": 3,
+                "name": "Subscriber Bennett",
+                "locale": "es_AR"
+            },
+            {
+                "id": 2,
+                "name": "Blogger Davenport",
+                "locale": "es_ES"
+            }
+        ],
+        "argentineSpanishLocaleUsers": [
+            {
+                "id": 3,
+                "name": "Subscriber Bennett",
+                "locale": "es_AR"
+            }
+        ]
+    }
+}

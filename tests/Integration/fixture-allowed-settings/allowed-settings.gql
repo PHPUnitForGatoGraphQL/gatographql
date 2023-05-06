@@ -1,0 +1,3 @@
+{
+  mailserverURL: optionValue(name: "mailserver_url")
+}

@@ -1,0 +1,3079 @@
+{
+  "data": {
+    "__schema": {
+      "types": [
+        {
+          "name": "CategoryDoesNotExistErrorPayload",
+          "namespacedName": "CategoryDoesNotExistErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The requested category does not exist\""
+        },
+        {
+          "name": "Comment",
+          "namespacedName": "Comment",
+          "fields": [
+            {
+              "name": "approved"
+            },
+            {
+              "name": "author"
+            },
+            {
+              "name": "authorEmail"
+            },
+            {
+              "name": "authorIP"
+            },
+            {
+              "name": "authorName"
+            },
+            {
+              "name": "authorURL"
+            },
+            {
+              "name": "content"
+            },
+            {
+              "name": "customPost"
+            },
+            {
+              "name": "customPostID"
+            },
+            {
+              "name": "date"
+            },
+            {
+              "name": "dateStr"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "karma"
+            },
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            },
+            {
+              "name": "parent"
+            },
+            {
+              "name": "rawContent"
+            },
+            {
+              "name": "responseCount"
+            },
+            {
+              "name": "responses"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "type"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Comments added to custom posts"
+        },
+        {
+          "name": "CommentAuthorEmailIsMissingErrorPayload",
+          "namespacedName": "CommentAuthorEmailIsMissingErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The comment's author email is missing\""
+        },
+        {
+          "name": "CommentAuthorNameIsMissingErrorPayload",
+          "namespacedName": "CommentAuthorNameIsMissingErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The comment's author name is missing\""
+        },
+        {
+          "name": "CommentParentCommentDoesNotExistErrorPayload",
+          "namespacedName": "CommentParentCommentDoesNotExistErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The comment's parent does not exist\""
+        },
+        {
+          "name": "CommentsAreNotOpenForCustomPostErrorPayload",
+          "namespacedName": "CommentsAreNotOpenForCustomPostErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"Comments are not open for the custom post\""
+        },
+        {
+          "name": "CommentsAreNotSupportedByCustomPostTypeErrorPayload",
+          "namespacedName": "CommentsAreNotSupportedByCustomPostTypeErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"Comments are not supported by the custom post type\""
+        },
+        {
+          "name": "CustomPostDoesNotExistErrorPayload",
+          "namespacedName": "CustomPostDoesNotExistErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The requested custom post does not exist\""
+        },
+        {
+          "name": "FeaturedImageIsNotSupportedByCustomPostTypeErrorPayload",
+          "namespacedName": "FeaturedImageIsNotSupportedByCustomPostTypeErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"Setting the featured image is not supported by the custom post type\""
+        },
+        {
+          "name": "GenericCategory",
+          "namespacedName": "GenericCategory",
+          "fields": [
+            {
+              "name": "count"
+            },
+            {
+              "name": "customPostCount"
+            },
+            {
+              "name": "customPosts"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "parent"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "taxonomy"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "A category that does not have its own type in the schema"
+        },
+        {
+          "name": "GenericCustomPost",
+          "namespacedName": "GenericCustomPost",
+          "fields": [
+            {
+              "name": "areCommentsOpen"
+            },
+            {
+              "name": "author"
+            },
+            {
+              "name": "categories"
+            },
+            {
+              "name": "categoryCount"
+            },
+            {
+              "name": "categoryNames"
+            },
+            {
+              "name": "commentCount"
+            },
+            {
+              "name": "comments"
+            },
+            {
+              "name": "content"
+            },
+            {
+              "name": "contentSource"
+            },
+            {
+              "name": "customPostType"
+            },
+            {
+              "name": "date"
+            },
+            {
+              "name": "dateStr"
+            },
+            {
+              "name": "excerpt"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "hasComments"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "isStatus"
+            },
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            },
+            {
+              "name": "modifiedDate"
+            },
+            {
+              "name": "modifiedDateStr"
+            },
+            {
+              "name": "rawContent"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "tagCount"
+            },
+            {
+              "name": "tagNames"
+            },
+            {
+              "name": "tags"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "A custom post that does not have its own type in the schema"
+        },
+        {
+          "name": "GenericErrorPayload",
+          "namespacedName": "GenericErrorPayload",
+          "fields": [
+            {
+              "name": "code"
+            },
+            {
+              "name": "data"
+            },
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Generic error payload"
+        },
+        {
+          "name": "GenericTag",
+          "namespacedName": "GenericTag",
+          "fields": [
+            {
+              "name": "count"
+            },
+            {
+              "name": "customPostCount"
+            },
+            {
+              "name": "customPosts"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "taxonomy"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "A tag that does not have its own type in the schema"
+        },
+        {
+          "name": "InvalidUserEmailErrorPayload",
+          "namespacedName": "InvalidUserEmailErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"No user is registered with the provided email\""
+        },
+        {
+          "name": "InvalidUsernameErrorPayload",
+          "namespacedName": "InvalidUsernameErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"No user is registered with the provided username\""
+        },
+        {
+          "name": "LoggedInUserHasNoEditingCustomPostCapabilityErrorPayload",
+          "namespacedName": "LoggedInUserHasNoEditingCustomPostCapabilityErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The logged-in user has no permission to edit custom posts\""
+        },
+        {
+          "name": "LoggedInUserHasNoPermissionToEditCustomPostErrorPayload",
+          "namespacedName": "LoggedInUserHasNoPermissionToEditCustomPostErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The logged-in user has no permission to edit the requested custom post\""
+        },
+        {
+          "name": "LoggedInUserHasNoPublishingCustomPostCapabilityErrorPayload",
+          "namespacedName": "LoggedInUserHasNoPublishingCustomPostCapabilityErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The logged-in user has no permission to publish custom posts\""
+        },
+        {
+          "name": "Media",
+          "namespacedName": "Media",
+          "fields": [
+            {
+              "name": "altText"
+            },
+            {
+              "name": "author"
+            },
+            {
+              "name": "caption"
+            },
+            {
+              "name": "date"
+            },
+            {
+              "name": "dateStr"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "height"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "mimeType"
+            },
+            {
+              "name": "modifiedDate"
+            },
+            {
+              "name": "modifiedDateStr"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "sizes"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "src"
+            },
+            {
+              "name": "srcPath"
+            },
+            {
+              "name": "srcSet"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            },
+            {
+              "name": "width"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Media elements (such as images, videos, etc), attached to a post or independent"
+        },
+        {
+          "name": "MediaItemDoesNotExistErrorPayload",
+          "namespacedName": "MediaItemDoesNotExistErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The requested media item does not exist\""
+        },
+        {
+          "name": "Menu",
+          "namespacedName": "Menu",
+          "fields": [
+            {
+              "name": "count"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "itemDataEntries"
+            },
+            {
+              "name": "items"
+            },
+            {
+              "name": "locations"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "slug"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of a navigation menu"
+        },
+        {
+          "name": "MenuItem",
+          "namespacedName": "MenuItem",
+          "fields": [
+            {
+              "name": "children"
+            },
+            {
+              "name": "classes"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "label"
+            },
+            {
+              "name": "linkRelationship"
+            },
+            {
+              "name": "localURLPath"
+            },
+            {
+              "name": "objectID"
+            },
+            {
+              "name": "parentID"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "target"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "url"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Items (links, pages, etc) added to a menu"
+        },
+        {
+          "name": "MutationRoot",
+          "namespacedName": "MutationRoot",
+          "fields": [
+            {
+              "name": "addCommentToCustomPost"
+            },
+            {
+              "name": "createPost"
+            },
+            {
+              "name": "loginUser"
+            },
+            {
+              "name": "logoutUser"
+            },
+            {
+              "name": "removeFeaturedImageFromCustomPost"
+            },
+            {
+              "name": "replyComment"
+            },
+            {
+              "name": "setCategoriesOnPost"
+            },
+            {
+              "name": "setFeaturedImageOnCustomPost"
+            },
+            {
+              "name": "setTagsOnPost"
+            },
+            {
+              "name": "updatePost"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Mutation type, starting from which mutations are executed"
+        },
+        {
+          "name": "Page",
+          "namespacedName": "Page",
+          "fields": [
+            {
+              "name": "areCommentsOpen"
+            },
+            {
+              "name": "author"
+            },
+            {
+              "name": "childCount"
+            },
+            {
+              "name": "children"
+            },
+            {
+              "name": "commentCount"
+            },
+            {
+              "name": "comments"
+            },
+            {
+              "name": "content"
+            },
+            {
+              "name": "contentSource"
+            },
+            {
+              "name": "customPostType"
+            },
+            {
+              "name": "date"
+            },
+            {
+              "name": "dateStr"
+            },
+            {
+              "name": "excerpt"
+            },
+            {
+              "name": "featuredImage"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "hasComments"
+            },
+            {
+              "name": "hasFeaturedImage"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "isStatus"
+            },
+            {
+              "name": "menuOrder"
+            },
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            },
+            {
+              "name": "modifiedDate"
+            },
+            {
+              "name": "modifiedDateStr"
+            },
+            {
+              "name": "parent"
+            },
+            {
+              "name": "rawContent"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of a page"
+        },
+        {
+          "name": "PasswordIsIncorrectErrorPayload",
+          "namespacedName": "PasswordIsIncorrectErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The password is incorrect\""
+        },
+        {
+          "name": "Post",
+          "namespacedName": "Post",
+          "fields": [
+            {
+              "name": "areCommentsOpen"
+            },
+            {
+              "name": "author"
+            },
+            {
+              "name": "categories"
+            },
+            {
+              "name": "categoryCount"
+            },
+            {
+              "name": "categoryNames"
+            },
+            {
+              "name": "commentCount"
+            },
+            {
+              "name": "comments"
+            },
+            {
+              "name": "content"
+            },
+            {
+              "name": "contentSource"
+            },
+            {
+              "name": "customPostType"
+            },
+            {
+              "name": "date"
+            },
+            {
+              "name": "dateStr"
+            },
+            {
+              "name": "excerpt"
+            },
+            {
+              "name": "featuredImage"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "hasComments"
+            },
+            {
+              "name": "hasFeaturedImage"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "isStatus"
+            },
+            {
+              "name": "isSticky"
+            },
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            },
+            {
+              "name": "modifiedDate"
+            },
+            {
+              "name": "modifiedDateStr"
+            },
+            {
+              "name": "postFormat"
+            },
+            {
+              "name": "rawContent"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "tagCount"
+            },
+            {
+              "name": "tagNames"
+            },
+            {
+              "name": "tags"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of a post"
+        },
+        {
+          "name": "PostCategory",
+          "namespacedName": "PostCategory",
+          "fields": [
+            {
+              "name": "childCount"
+            },
+            {
+              "name": "childNames"
+            },
+            {
+              "name": "children"
+            },
+            {
+              "name": "count"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "parent"
+            },
+            {
+              "name": "postCount"
+            },
+            {
+              "name": "posts"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of a category, added to a post (taxonomy: \"category\")"
+        },
+        {
+          "name": "PostTag",
+          "namespacedName": "PostTag",
+          "fields": [
+            {
+              "name": "count"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "postCount"
+            },
+            {
+              "name": "posts"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of a tag, added to a post (taxonomy: \"post_tag\")"
+        },
+        {
+          "name": "QueryRoot",
+          "namespacedName": "QueryRoot",
+          "fields": [
+            {
+              "name": "capabilities"
+            },
+            {
+              "name": "categories"
+            },
+            {
+              "name": "category"
+            },
+            {
+              "name": "categoryCount"
+            },
+            {
+              "name": "categoryNames"
+            },
+            {
+              "name": "comment"
+            },
+            {
+              "name": "commentCount"
+            },
+            {
+              "name": "comments"
+            },
+            {
+              "name": "customPost"
+            },
+            {
+              "name": "customPostCount"
+            },
+            {
+              "name": "customPosts"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "imageSizeNames"
+            },
+            {
+              "name": "isUserLoggedIn"
+            },
+            {
+              "name": "loggedInUserID"
+            },
+            {
+              "name": "me"
+            },
+            {
+              "name": "mediaItem"
+            },
+            {
+              "name": "mediaItemCount"
+            },
+            {
+              "name": "mediaItems"
+            },
+            {
+              "name": "menu"
+            },
+            {
+              "name": "menuCount"
+            },
+            {
+              "name": "menus"
+            },
+            {
+              "name": "myComment"
+            },
+            {
+              "name": "myCommentCount"
+            },
+            {
+              "name": "myComments"
+            },
+            {
+              "name": "myCustomPost"
+            },
+            {
+              "name": "myCustomPostCount"
+            },
+            {
+              "name": "myCustomPosts"
+            },
+            {
+              "name": "myPost"
+            },
+            {
+              "name": "myPostCount"
+            },
+            {
+              "name": "myPosts"
+            },
+            {
+              "name": "optionObjectValue"
+            },
+            {
+              "name": "optionValue"
+            },
+            {
+              "name": "optionValues"
+            },
+            {
+              "name": "page"
+            },
+            {
+              "name": "pageCount"
+            },
+            {
+              "name": "pages"
+            },
+            {
+              "name": "post"
+            },
+            {
+              "name": "postCategories"
+            },
+            {
+              "name": "postCategory"
+            },
+            {
+              "name": "postCategoryCount"
+            },
+            {
+              "name": "postCategoryNames"
+            },
+            {
+              "name": "postCount"
+            },
+            {
+              "name": "postTag"
+            },
+            {
+              "name": "postTagCount"
+            },
+            {
+              "name": "postTagNames"
+            },
+            {
+              "name": "postTags"
+            },
+            {
+              "name": "posts"
+            },
+            {
+              "name": "roleNames"
+            },
+            {
+              "name": "roles"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "tag"
+            },
+            {
+              "name": "tagCount"
+            },
+            {
+              "name": "tagNames"
+            },
+            {
+              "name": "tags"
+            },
+            {
+              "name": "user"
+            },
+            {
+              "name": "userCount"
+            },
+            {
+              "name": "users"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Query type, starting from which the query is executed"
+        },
+        {
+          "name": "Root",
+          "namespacedName": "Root",
+          "fields": [
+            {
+              "name": "addCommentToCustomPost"
+            },
+            {
+              "name": "capabilities"
+            },
+            {
+              "name": "categories"
+            },
+            {
+              "name": "category"
+            },
+            {
+              "name": "categoryCount"
+            },
+            {
+              "name": "categoryNames"
+            },
+            {
+              "name": "comment"
+            },
+            {
+              "name": "commentCount"
+            },
+            {
+              "name": "comments"
+            },
+            {
+              "name": "createPost"
+            },
+            {
+              "name": "customPost"
+            },
+            {
+              "name": "customPostCount"
+            },
+            {
+              "name": "customPosts"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "imageSizeNames"
+            },
+            {
+              "name": "isUserLoggedIn"
+            },
+            {
+              "name": "loggedInUserID"
+            },
+            {
+              "name": "loginUser"
+            },
+            {
+              "name": "logoutUser"
+            },
+            {
+              "name": "me"
+            },
+            {
+              "name": "mediaItem"
+            },
+            {
+              "name": "mediaItemCount"
+            },
+            {
+              "name": "mediaItems"
+            },
+            {
+              "name": "menu"
+            },
+            {
+              "name": "menuCount"
+            },
+            {
+              "name": "menus"
+            },
+            {
+              "name": "myComment"
+            },
+            {
+              "name": "myCommentCount"
+            },
+            {
+              "name": "myComments"
+            },
+            {
+              "name": "myCustomPost"
+            },
+            {
+              "name": "myCustomPostCount"
+            },
+            {
+              "name": "myCustomPosts"
+            },
+            {
+              "name": "myPost"
+            },
+            {
+              "name": "myPostCount"
+            },
+            {
+              "name": "myPosts"
+            },
+            {
+              "name": "optionObjectValue"
+            },
+            {
+              "name": "optionValue"
+            },
+            {
+              "name": "optionValues"
+            },
+            {
+              "name": "page"
+            },
+            {
+              "name": "pageCount"
+            },
+            {
+              "name": "pages"
+            },
+            {
+              "name": "post"
+            },
+            {
+              "name": "postCategories"
+            },
+            {
+              "name": "postCategory"
+            },
+            {
+              "name": "postCategoryCount"
+            },
+            {
+              "name": "postCategoryNames"
+            },
+            {
+              "name": "postCount"
+            },
+            {
+              "name": "postTag"
+            },
+            {
+              "name": "postTagCount"
+            },
+            {
+              "name": "postTagNames"
+            },
+            {
+              "name": "postTags"
+            },
+            {
+              "name": "posts"
+            },
+            {
+              "name": "removeFeaturedImageFromCustomPost"
+            },
+            {
+              "name": "replyComment"
+            },
+            {
+              "name": "roleNames"
+            },
+            {
+              "name": "roles"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "setCategoriesOnPost"
+            },
+            {
+              "name": "setFeaturedImageOnCustomPost"
+            },
+            {
+              "name": "setTagsOnPost"
+            },
+            {
+              "name": "tag"
+            },
+            {
+              "name": "tagCount"
+            },
+            {
+              "name": "tagNames"
+            },
+            {
+              "name": "tags"
+            },
+            {
+              "name": "updatePost"
+            },
+            {
+              "name": "user"
+            },
+            {
+              "name": "userCount"
+            },
+            {
+              "name": "users"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Root type, starting from which the query is executed"
+        },
+        {
+          "name": "RootAddCommentToCustomPostMutationPayload",
+          "namespacedName": "RootAddCommentToCustomPostMutationPayload",
+          "fields": [
+            {
+              "name": "comment"
+            },
+            {
+              "name": "commentID"
+            },
+            {
+              "name": "errors"
+            },
+            {
+              "name": "status"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of adding a comment to a custom post"
+        },
+        {
+          "name": "RootCreatePostMutationPayload",
+          "namespacedName": "RootCreatePostMutationPayload",
+          "fields": [
+            {
+              "name": "errors"
+            },
+            {
+              "name": "post"
+            },
+            {
+              "name": "postID"
+            },
+            {
+              "name": "status"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of creating a post"
+        },
+        {
+          "name": "RootLoginUserMutationPayload",
+          "namespacedName": "RootLoginUserMutationPayload",
+          "fields": [
+            {
+              "name": "errors"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "user"
+            },
+            {
+              "name": "userID"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of logging the user in"
+        },
+        {
+          "name": "RootLogoutUserMutationPayload",
+          "namespacedName": "RootLogoutUserMutationPayload",
+          "fields": [
+            {
+              "name": "errors"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "user"
+            },
+            {
+              "name": "userID"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of logging the user out"
+        },
+        {
+          "name": "RootRemoveFeaturedImageFromCustomPostMutationPayload",
+          "namespacedName": "RootRemoveFeaturedImageFromCustomPostMutationPayload",
+          "fields": [
+            {
+              "name": "customPost"
+            },
+            {
+              "name": "customPostID"
+            },
+            {
+              "name": "errors"
+            },
+            {
+              "name": "status"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of removing the featured image from a custom post"
+        },
+        {
+          "name": "RootReplyCommentMutationPayload",
+          "namespacedName": "RootReplyCommentMutationPayload",
+          "fields": [
+            {
+              "name": "comment"
+            },
+            {
+              "name": "commentID"
+            },
+            {
+              "name": "errors"
+            },
+            {
+              "name": "status"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of replying to a comment"
+        },
+        {
+          "name": "RootSetCategoriesOnPostMutationPayload",
+          "namespacedName": "RootSetCategoriesOnPostMutationPayload",
+          "fields": [
+            {
+              "name": "errors"
+            },
+            {
+              "name": "post"
+            },
+            {
+              "name": "postID"
+            },
+            {
+              "name": "status"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of setting categories on a post"
+        },
+        {
+          "name": "RootSetFeaturedImageOnCustomPostMutationPayload",
+          "namespacedName": "RootSetFeaturedImageOnCustomPostMutationPayload",
+          "fields": [
+            {
+              "name": "customPost"
+            },
+            {
+              "name": "customPostID"
+            },
+            {
+              "name": "errors"
+            },
+            {
+              "name": "status"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of setting the featured image to a custom post"
+        },
+        {
+          "name": "RootSetTagsOnPostMutationPayload",
+          "namespacedName": "RootSetTagsOnPostMutationPayload",
+          "fields": [
+            {
+              "name": "errors"
+            },
+            {
+              "name": "post"
+            },
+            {
+              "name": "postID"
+            },
+            {
+              "name": "status"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of setting tags on a post"
+        },
+        {
+          "name": "RootUpdatePostMutationPayload",
+          "namespacedName": "RootUpdatePostMutationPayload",
+          "fields": [
+            {
+              "name": "errors"
+            },
+            {
+              "name": "post"
+            },
+            {
+              "name": "postID"
+            },
+            {
+              "name": "status"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Payload of executing an update mutation on a post"
+        },
+        {
+          "name": "User",
+          "namespacedName": "User",
+          "fields": [
+            {
+              "name": "avatar"
+            },
+            {
+              "name": "capabilities"
+            },
+            {
+              "name": "customPostCount"
+            },
+            {
+              "name": "customPosts"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "displayName"
+            },
+            {
+              "name": "email"
+            },
+            {
+              "name": "firstName"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "hasAnyCapability"
+            },
+            {
+              "name": "hasAnyRole"
+            },
+            {
+              "name": "hasCapability"
+            },
+            {
+              "name": "hasRole"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "lastName"
+            },
+            {
+              "name": "locale"
+            },
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "nicename"
+            },
+            {
+              "name": "nickname"
+            },
+            {
+              "name": "postCount"
+            },
+            {
+              "name": "posts"
+            },
+            {
+              "name": "registeredDate"
+            },
+            {
+              "name": "registeredDateStr"
+            },
+            {
+              "name": "roleNames"
+            },
+            {
+              "name": "roles"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            },
+            {
+              "name": "username"
+            },
+            {
+              "name": "websiteURL"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of a user"
+        },
+        {
+          "name": "UserAvatar",
+          "namespacedName": "UserAvatar",
+          "fields": [
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "self"
+            },
+            {
+              "name": "size"
+            },
+            {
+              "name": "src"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "User avatar"
+        },
+        {
+          "name": "UserIsLoggedInErrorPayload",
+          "namespacedName": "UserIsLoggedInErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The user is already logged-in\""
+        },
+        {
+          "name": "UserIsNotLoggedInErrorPayload",
+          "namespacedName": "UserIsNotLoggedInErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Error payload for: \"The user is not logged-in\""
+        },
+        {
+          "name": "UserRole",
+          "namespacedName": "UserRole",
+          "fields": [
+            {
+              "name": "capabilities"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "self"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "User roles"
+        },
+        {
+          "name": "_DirectiveExtensions",
+          "namespacedName": "_DirectiveExtensions",
+          "fields": [
+            {
+              "name": "fieldDirectiveSupportedTypeNamesOrDescriptions"
+            },
+            {
+              "name": "needsDataToExecute"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Extensions (custom metadata) added to the directive"
+        },
+        {
+          "name": "_EnumValueExtensions",
+          "namespacedName": "_EnumValueExtensions",
+          "fields": [
+            {
+              "name": "isSensitiveDataElement"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Extensions (custom metadata) added to the enum value"
+        },
+        {
+          "name": "_FieldExtensions",
+          "namespacedName": "_FieldExtensions",
+          "fields": [
+            {
+              "name": "isGlobal"
+            },
+            {
+              "name": "isMutation"
+            },
+            {
+              "name": "isSensitiveDataElement"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Extensions (custom metadata) added to the field"
+        },
+        {
+          "name": "_InputValueExtensions",
+          "namespacedName": "_InputValueExtensions",
+          "fields": [
+            {
+              "name": "isSensitiveDataElement"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Extensions (custom metadata) added to the input value"
+        },
+        {
+          "name": "_NamedTypeExtensions",
+          "namespacedName": "_NamedTypeExtensions",
+          "fields": [
+            {
+              "name": "elementName"
+            },
+            {
+              "name": "isOneOf"
+            },
+            {
+              "name": "namespacedName"
+            },
+            {
+              "name": "possibleValues"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Extensions (custom metadata) added to the GraphQL type (for all 'named' types: Object, Interface, Union, Scalar, Enum and InputObject)"
+        },
+        {
+          "name": "_SchemaExtensions",
+          "namespacedName": "_SchemaExtensions",
+          "fields": [
+            {
+              "name": "isNamespaced"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Extensions (custom metadata) added to the GraphQL schema"
+        },
+        {
+          "name": "__Directive",
+          "namespacedName": "__Directive",
+          "fields": [
+            {
+              "name": "args"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "extensions"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "isRepeatable"
+            },
+            {
+              "name": "locations"
+            },
+            {
+              "name": "name"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "A GraphQL directive in the data graph"
+        },
+        {
+          "name": "__EnumValue",
+          "namespacedName": "__EnumValue",
+          "fields": [
+            {
+              "name": "deprecationReason"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "extensions"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "isDeprecated"
+            },
+            {
+              "name": "name"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of an Enum value in GraphQL"
+        },
+        {
+          "name": "__Field",
+          "namespacedName": "__Field",
+          "fields": [
+            {
+              "name": "args"
+            },
+            {
+              "name": "deprecationReason"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "extensions"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "isDeprecated"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "type"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of a GraphQL type's field"
+        },
+        {
+          "name": "__InputValue",
+          "namespacedName": "__InputValue",
+          "fields": [
+            {
+              "name": "defaultValue"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "extensions"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "type"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of an input object in GraphQL"
+        },
+        {
+          "name": "__Schema",
+          "namespacedName": "__Schema",
+          "fields": [
+            {
+              "name": "directives"
+            },
+            {
+              "name": "extensions"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "mutationType"
+            },
+            {
+              "name": "queryType"
+            },
+            {
+              "name": "subscriptionType"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "types"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Schema type, to implement the introspection fields"
+        },
+        {
+          "name": "__Type",
+          "namespacedName": "__Type",
+          "fields": [
+            {
+              "name": "description"
+            },
+            {
+              "name": "enumValues"
+            },
+            {
+              "name": "extensions"
+            },
+            {
+              "name": "fields"
+            },
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "inputFields"
+            },
+            {
+              "name": "interfaces"
+            },
+            {
+              "name": "kind"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "ofType"
+            },
+            {
+              "name": "possibleTypes"
+            },
+            {
+              "name": "specifiedByURL"
+            }
+          ],
+          "kind": "OBJECT",
+          "description": "Representation of each GraphQL type in the graph"
+        },
+        {
+          "name": "AnyBuiltInScalar",
+          "namespacedName": "AnyBuiltInScalar",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "Wildcard type representing any of GraphQL's built-in types (String, Int, Boolean, Float or ID)"
+        },
+        {
+          "name": "Boolean",
+          "namespacedName": "Boolean",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "The Boolean scalar type represents `true` or `false`."
+        },
+        {
+          "name": "CategoryTaxonomyEnumString",
+          "namespacedName": "CategoryTaxonomyEnumString",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "Category taxonomies (available for querying via the API), with possible values: `\"category\"`, `\"dummy-category\"`."
+        },
+        {
+          "name": "CustomPostEnumString",
+          "namespacedName": "CustomPostEnumString",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "Custom post types (available for querying via the API), with possible values: `\"dummy-cpt\"`, `\"page\"`, `\"post\"`."
+        },
+        {
+          "name": "Date",
+          "namespacedName": "Date",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "Date scalar. It follows the ISO 8601 specification, with format \"Y-m-d\")"
+        },
+        {
+          "name": "DateTime",
+          "namespacedName": "DateTime",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "DateTime scalar. It follows the ISO 8601 specification, with format \"Y-m-d\\TH:i:sP\")"
+        },
+        {
+          "name": "Email",
+          "namespacedName": "Email",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "Email scalar, such as leo@mysite.com"
+        },
+        {
+          "name": "HTML",
+          "namespacedName": "HTML",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "HTML scalar, such as \"<p>Hello <strong>world<\/strong>!<\/p>\""
+        },
+        {
+          "name": "ID",
+          "namespacedName": "ID",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "The ID scalar type represents a unique identifier."
+        },
+        {
+          "name": "Int",
+          "namespacedName": "Int",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "The Int scalar type represents non-fractional signed whole numeric values."
+        },
+        {
+          "name": "JSONObject",
+          "namespacedName": "JSONObject",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "Custom scalar representing a JSON Object of unrestricted shape"
+        },
+        {
+          "name": "MenuLocationEnumString",
+          "namespacedName": "MenuLocationEnumString",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "Menu Locations, with possible values: `\"footer\"`, `\"primary\"`."
+        },
+        {
+          "name": "Numeric",
+          "namespacedName": "Numeric",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "Wildcard type representing any of the numeric types (Int or Float)"
+        },
+        {
+          "name": "String",
+          "namespacedName": "String",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "The String scalar type represents textual data, represented as UTF-8 character sequences."
+        },
+        {
+          "name": "TagTaxonomyEnumString",
+          "namespacedName": "TagTaxonomyEnumString",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "Tag taxonomies (available for querying via the API), with possible values: `\"dummy-tag\"`, `\"post_tag\"`."
+        },
+        {
+          "name": "URL",
+          "namespacedName": "URL",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "URL scalar, such as https:\/\/mysite.com\/my-fabulous-page"
+        },
+        {
+          "name": "URLAbsolutePath",
+          "namespacedName": "URLAbsolutePath",
+          "fields": null,
+          "kind": "SCALAR",
+          "description": "URL Absolute Path scalar, such as \"\/my-fabulous-page\" in URL \"https:\/\/mysite.com\/my-fabulous-page\". The absolute path starts with \"\/\", followed by the URL relative path"
+        },
+        {
+          "name": "Category",
+          "namespacedName": "Category",
+          "fields": [
+            {
+              "name": "count"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "name"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "Entities representing a category"
+        },
+        {
+          "name": "Commentable",
+          "namespacedName": "Commentable",
+          "fields": [
+            {
+              "name": "areCommentsOpen"
+            },
+            {
+              "name": "commentCount"
+            },
+            {
+              "name": "comments"
+            },
+            {
+              "name": "hasComments"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "The entity can receive comments"
+        },
+        {
+          "name": "CustomPost",
+          "namespacedName": "CustomPost",
+          "fields": [
+            {
+              "name": "content"
+            },
+            {
+              "name": "customPostType"
+            },
+            {
+              "name": "date"
+            },
+            {
+              "name": "dateStr"
+            },
+            {
+              "name": "excerpt"
+            },
+            {
+              "name": "isStatus"
+            },
+            {
+              "name": "modifiedDate"
+            },
+            {
+              "name": "modifiedDateStr"
+            },
+            {
+              "name": "rawContent"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "Entities representing a custom post"
+        },
+        {
+          "name": "ErrorPayload",
+          "namespacedName": "ErrorPayload",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "Entities representing an Error payload"
+        },
+        {
+          "name": "IdentifiableObject",
+          "namespacedName": "IdentifiableObject",
+          "fields": [
+            {
+              "name": "globalID"
+            },
+            {
+              "name": "id"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "An object that can be uniquely identifiable within its type via an 'ID', and within the whole schema via a 'global ID'"
+        },
+        {
+          "name": "Queryable",
+          "namespacedName": "Queryable",
+          "fields": [
+            {
+              "name": "slug"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "urlPath"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "Entities that can be queried through an URL"
+        },
+        {
+          "name": "Tag",
+          "namespacedName": "Tag",
+          "fields": [
+            {
+              "name": "count"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "name"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "Entities representing a tag"
+        },
+        {
+          "name": "WithAuthor",
+          "namespacedName": "WithAuthor",
+          "fields": [
+            {
+              "name": "author"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "Entities that have an author"
+        },
+        {
+          "name": "WithFeaturedImage",
+          "namespacedName": "WithFeaturedImage",
+          "fields": [
+            {
+              "name": "featuredImage"
+            },
+            {
+              "name": "hasFeaturedImage"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "Fields concerning an entity's featured image"
+        },
+        {
+          "name": "WithMeta",
+          "namespacedName": "WithMeta",
+          "fields": [
+            {
+              "name": "metaValue"
+            },
+            {
+              "name": "metaValues"
+            }
+          ],
+          "kind": "INTERFACE",
+          "description": "Fields with meta values"
+        },
+        {
+          "name": "CategoryByInput",
+          "namespacedName": "CategoryByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a category"
+        },
+        {
+          "name": "CategoryPaginationInput",
+          "namespacedName": "CategoryPaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate categories"
+        },
+        {
+          "name": "CommentByInput",
+          "namespacedName": "CommentByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a comment"
+        },
+        {
+          "name": "CommentMetaQueryInput",
+          "namespacedName": "CommentMetaQueryInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Filter by meta key and value. The key must be allowed access in the Settings. See: https:\/\/developer.wordpress.org\/reference\/classes\/wp_meta_query\/"
+        },
+        {
+          "name": "CommentResponsePaginationInput",
+          "namespacedName": "CommentResponsePaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate response comments"
+        },
+        {
+          "name": "CommentResponsesFilterInput",
+          "namespacedName": "CommentResponsesFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter comment responses"
+        },
+        {
+          "name": "CommentSortInput",
+          "namespacedName": "CommentSortInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to sort custom posts"
+        },
+        {
+          "name": "CustomPostByInput",
+          "namespacedName": "CustomPostByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a custom post"
+        },
+        {
+          "name": "CustomPostCategoriesFilterInput",
+          "namespacedName": "CustomPostCategoriesFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter categories from a custom post"
+        },
+        {
+          "name": "CustomPostCommentPaginationInput",
+          "namespacedName": "CustomPostCommentPaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate custom post comments"
+        },
+        {
+          "name": "CustomPostCommentsFilterInput",
+          "namespacedName": "CustomPostCommentsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter comments from custom posts"
+        },
+        {
+          "name": "CustomPostMetaQueryInput",
+          "namespacedName": "CustomPostMetaQueryInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Filter by meta key and value. The key must be allowed access in the Settings. See: https:\/\/developer.wordpress.org\/reference\/classes\/wp_meta_query\/"
+        },
+        {
+          "name": "CustomPostPaginationInput",
+          "namespacedName": "CustomPostPaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate custom posts"
+        },
+        {
+          "name": "CustomPostSortInput",
+          "namespacedName": "CustomPostSortInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to sort custom posts"
+        },
+        {
+          "name": "CustomPostTagsFilterInput",
+          "namespacedName": "CustomPostTagsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter tags from a custom post"
+        },
+        {
+          "name": "DateQueryInput",
+          "namespacedName": "DateQueryInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": null
+        },
+        {
+          "name": "LoginCredentialsInput",
+          "namespacedName": "LoginCredentialsInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": null
+        },
+        {
+          "name": "LoginUserByInput",
+          "namespacedName": "LoginUserByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": null
+        },
+        {
+          "name": "MediaItemByInput",
+          "namespacedName": "MediaItemByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a media item"
+        },
+        {
+          "name": "MediaItemSortInput",
+          "namespacedName": "MediaItemSortInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to sort custom posts"
+        },
+        {
+          "name": "MenuByInput",
+          "namespacedName": "MenuByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a menu"
+        },
+        {
+          "name": "MenuSortInput",
+          "namespacedName": "MenuSortInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to sort custom posts"
+        },
+        {
+          "name": "MetaQueryCompareByArrayValueInput",
+          "namespacedName": "MetaQueryCompareByArrayValueInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": null
+        },
+        {
+          "name": "MetaQueryCompareByInput",
+          "namespacedName": "MetaQueryCompareByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": null
+        },
+        {
+          "name": "MetaQueryCompareByKeyInput",
+          "namespacedName": "MetaQueryCompareByKeyInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": null
+        },
+        {
+          "name": "MetaQueryCompareByNumericValueInput",
+          "namespacedName": "MetaQueryCompareByNumericValueInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": null
+        },
+        {
+          "name": "MetaQueryCompareByStringValueInput",
+          "namespacedName": "MetaQueryCompareByStringValueInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": null
+        },
+        {
+          "name": "PageByInput",
+          "namespacedName": "PageByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a page"
+        },
+        {
+          "name": "PageChildrenFilterInput",
+          "namespacedName": "PageChildrenFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter the page children"
+        },
+        {
+          "name": "PagePaginationInput",
+          "namespacedName": "PagePaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate pages"
+        },
+        {
+          "name": "PostByInput",
+          "namespacedName": "PostByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a post"
+        },
+        {
+          "name": "PostCategoryByInput",
+          "namespacedName": "PostCategoryByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a category"
+        },
+        {
+          "name": "PostPaginationInput",
+          "namespacedName": "PostPaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate posts"
+        },
+        {
+          "name": "PostTagByInput",
+          "namespacedName": "PostTagByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a tag"
+        },
+        {
+          "name": "RootAddCommentToCustomPostFilterInput",
+          "namespacedName": "RootAddCommentToCustomPostFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to add a comment to a custom post"
+        },
+        {
+          "name": "RootCategoriesFilterInput",
+          "namespacedName": "RootCategoriesFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter categories"
+        },
+        {
+          "name": "RootCommentPaginationInput",
+          "namespacedName": "RootCommentPaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate comments"
+        },
+        {
+          "name": "RootCommentsFilterInput",
+          "namespacedName": "RootCommentsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter comments"
+        },
+        {
+          "name": "RootCreatePostFilterInput",
+          "namespacedName": "RootCreatePostFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to update a custom post"
+        },
+        {
+          "name": "RootCustomPostsFilterInput",
+          "namespacedName": "RootCustomPostsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter custom posts"
+        },
+        {
+          "name": "RootMediaItemPaginationInput",
+          "namespacedName": "RootMediaItemPaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate media items"
+        },
+        {
+          "name": "RootMediaItemsFilterInput",
+          "namespacedName": "RootMediaItemsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter media items"
+        },
+        {
+          "name": "RootMenuPaginationInput",
+          "namespacedName": "RootMenuPaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate menus"
+        },
+        {
+          "name": "RootMenusFilterInput",
+          "namespacedName": "RootMenusFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter menus"
+        },
+        {
+          "name": "RootMyCommentsFilterInput",
+          "namespacedName": "RootMyCommentsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter the logged-in user's comments"
+        },
+        {
+          "name": "RootMyCustomPostsFilterInput",
+          "namespacedName": "RootMyCustomPostsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter the logged-in user's custom posts"
+        },
+        {
+          "name": "RootMyPostsFilterInput",
+          "namespacedName": "RootMyPostsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter the logged-in user's posts"
+        },
+        {
+          "name": "RootPagesFilterInput",
+          "namespacedName": "RootPagesFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter pages"
+        },
+        {
+          "name": "RootPostsFilterInput",
+          "namespacedName": "RootPostsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter posts"
+        },
+        {
+          "name": "RootRemoveFeaturedImageFromCustomPostFilterInput",
+          "namespacedName": "RootRemoveFeaturedImageFromCustomPostFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to remove the featured image from a custom post"
+        },
+        {
+          "name": "RootReplyCommentFilterInput",
+          "namespacedName": "RootReplyCommentFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to add a comment to a custom post"
+        },
+        {
+          "name": "RootSetCategoriesOnCustomPostFilterInput",
+          "namespacedName": "RootSetCategoriesOnCustomPostFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to set categories on a custom post"
+        },
+        {
+          "name": "RootSetFeaturedImageOnCustomPostFilterInput",
+          "namespacedName": "RootSetFeaturedImageOnCustomPostFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to set the featured image on a custom post"
+        },
+        {
+          "name": "RootSetTagsOnCustomPostFilterInput",
+          "namespacedName": "RootSetTagsOnCustomPostFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to set tags on a custom post"
+        },
+        {
+          "name": "RootTagsFilterInput",
+          "namespacedName": "RootTagsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter tags"
+        },
+        {
+          "name": "RootUpdatePostFilterInput",
+          "namespacedName": "RootUpdatePostFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to update a custom post"
+        },
+        {
+          "name": "TagByInput",
+          "namespacedName": "TagByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a tag"
+        },
+        {
+          "name": "TagPaginationInput",
+          "namespacedName": "TagPaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate tags"
+        },
+        {
+          "name": "TaxonomyCustomPostsFilterInput",
+          "namespacedName": "TaxonomyCustomPostsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter a taxonomy's custom posts"
+        },
+        {
+          "name": "TaxonomyMetaQueryInput",
+          "namespacedName": "TaxonomyMetaQueryInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Filter by meta key and value. The key must be allowed access in the Settings. See: https:\/\/developer.wordpress.org\/reference\/classes\/wp_meta_query\/"
+        },
+        {
+          "name": "TaxonomySortInput",
+          "namespacedName": "TaxonomySortInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to sort custom posts"
+        },
+        {
+          "name": "TaxonomyTaxonomiesFilterInput",
+          "namespacedName": "TaxonomyTaxonomiesFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter child taxonomies"
+        },
+        {
+          "name": "UserByInput",
+          "namespacedName": "UserByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to fetch a user"
+        },
+        {
+          "name": "UserCustomPostsFilterInput",
+          "namespacedName": "UserCustomPostsFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter the user's custom posts"
+        },
+        {
+          "name": "UserMetaQueryInput",
+          "namespacedName": "UserMetaQueryInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Filter by meta key and value. The key must be allowed access in the Settings. See: https:\/\/developer.wordpress.org\/reference\/classes\/wp_meta_query\/"
+        },
+        {
+          "name": "UserPaginationInput",
+          "namespacedName": "UserPaginationInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to paginate users"
+        },
+        {
+          "name": "UserSearchByInput",
+          "namespacedName": "UserSearchByInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Oneof input to specify the property and data to search users"
+        },
+        {
+          "name": "UserSortInput",
+          "namespacedName": "UserSortInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to sort custom posts"
+        },
+        {
+          "name": "UsersFilterInput",
+          "namespacedName": "UsersFilterInput",
+          "fields": null,
+          "kind": "INPUT_OBJECT",
+          "description": "Input to filter users"
+        },
+        {
+          "name": "CommentOrderByEnum",
+          "namespacedName": "CommentOrderByEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "CommentStatusEnum",
+          "namespacedName": "CommentStatusEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "CommentTypeEnum",
+          "namespacedName": "CommentTypeEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "CustomPostOrderByEnum",
+          "namespacedName": "CustomPostOrderByEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "CustomPostStatusEnum",
+          "namespacedName": "CustomPostStatusEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "DirectiveKindEnum",
+          "namespacedName": "DirectiveKindEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "DirectiveLocation",
+          "namespacedName": "DirectiveLocation",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "FilterCustomPostStatusEnum",
+          "namespacedName": "FilterCustomPostStatusEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "MediaItemOrderByEnum",
+          "namespacedName": "MediaItemOrderByEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "MenuOrderByEnum",
+          "namespacedName": "MenuOrderByEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "MetaQueryCompareByArrayValueOperatorEnum",
+          "namespacedName": "MetaQueryCompareByArrayValueOperatorEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": "Operators to compare against an array value"
+        },
+        {
+          "name": "MetaQueryCompareByKeyOperatorEnum",
+          "namespacedName": "MetaQueryCompareByKeyOperatorEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": "Operators to compare against the meta key"
+        },
+        {
+          "name": "MetaQueryCompareByNumericValueOperatorEnum",
+          "namespacedName": "MetaQueryCompareByNumericValueOperatorEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": "Operators to compare against a numeric value"
+        },
+        {
+          "name": "MetaQueryCompareByStringValueOperatorEnum",
+          "namespacedName": "MetaQueryCompareByStringValueOperatorEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": "Operators to compare against a string value"
+        },
+        {
+          "name": "MetaQueryValueTypesEnum",
+          "namespacedName": "MetaQueryValueTypesEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": "Custom field type"
+        },
+        {
+          "name": "OperationStatusEnum",
+          "namespacedName": "OperationStatusEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "OrderEnum",
+          "namespacedName": "OrderEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "RelationEnum",
+          "namespacedName": "RelationEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": "The logical relationship between array values in query args (for meta query, date parameters, and others) when there is more than one"
+        },
+        {
+          "name": "TaxonomyOrderByEnum",
+          "namespacedName": "TaxonomyOrderByEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "TypeKind",
+          "namespacedName": "TypeKind",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "UserOrderByEnum",
+          "namespacedName": "UserOrderByEnum",
+          "fields": null,
+          "kind": "ENUM",
+          "description": null
+        },
+        {
+          "name": "CategoryUnion",
+          "namespacedName": "CategoryUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'category' type resolvers"
+        },
+        {
+          "name": "CustomPostUnion",
+          "namespacedName": "CustomPostUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'custom post' type resolvers"
+        },
+        {
+          "name": "RootAddCommentToCustomPostMutationErrorPayloadUnion",
+          "namespacedName": "RootAddCommentToCustomPostMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when adding a comment to a custom post"
+        },
+        {
+          "name": "RootCreatePostMutationErrorPayloadUnion",
+          "namespacedName": "RootCreatePostMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when creating a post"
+        },
+        {
+          "name": "RootLoginUserMutationErrorPayloadUnion",
+          "namespacedName": "RootLoginUserMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when logging a user in"
+        },
+        {
+          "name": "RootLogoutUserMutationErrorPayloadUnion",
+          "namespacedName": "RootLogoutUserMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when logging a user out"
+        },
+        {
+          "name": "RootRemoveFeaturedImageFromCustomPostMutationErrorPayloadUnion",
+          "namespacedName": "RootRemoveFeaturedImageFromCustomPostMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when removing a featured image from a custom post"
+        },
+        {
+          "name": "RootReplyCommentMutationErrorPayloadUnion",
+          "namespacedName": "RootReplyCommentMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when replying to a comment"
+        },
+        {
+          "name": "RootSetCategoriesOnPostMutationErrorPayloadUnion",
+          "namespacedName": "RootSetCategoriesOnPostMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when setting categories on a custom post"
+        },
+        {
+          "name": "RootSetFeaturedImageOnCustomPostMutationErrorPayloadUnion",
+          "namespacedName": "RootSetFeaturedImageOnCustomPostMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when setting a featured image to a custom post"
+        },
+        {
+          "name": "RootSetTagsOnPostMutationErrorPayloadUnion",
+          "namespacedName": "RootSetTagsOnPostMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when setting tags on a custom post"
+        },
+        {
+          "name": "RootUpdatePostMutationErrorPayloadUnion",
+          "namespacedName": "RootUpdatePostMutationErrorPayloadUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'Error Payload' types when updating a post"
+        },
+        {
+          "name": "TagUnion",
+          "namespacedName": "TagUnion",
+          "fields": null,
+          "kind": "UNION",
+          "description": "Union of 'tag' type resolvers"
+        }
+      ]
+    }
+  }
+}

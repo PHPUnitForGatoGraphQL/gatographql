@@ -1,0 +1,34 @@
+{
+  customPosts(filter: {ids: [1724, 358, 733]}) {
+    __typename
+    ...on CustomPost {
+      id
+      customPostType
+    }
+    addComment(input: {
+      comment: "Great insight!",
+      authorName: "Leo"
+      authorEmail: "leo@saronga.com",
+    }) {
+      status
+      errors {
+        __typename
+        ...on ErrorPayload {
+          message
+        }
+      }
+      comment {
+        content
+        authorName
+        authorEmail
+        customPost {
+          __typename
+          ...on Post {
+            id
+            title
+          }
+        }
+      }
+    }
+  }
+}

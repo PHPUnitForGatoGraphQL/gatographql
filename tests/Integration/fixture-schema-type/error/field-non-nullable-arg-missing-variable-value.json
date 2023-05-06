@@ -1,0 +1,42 @@
+{
+    "errors": [
+        {
+            "message": "Argument 'format' in field 'dateStr' of type 'Post' cannot be null",
+            "locations": [
+                {
+                    "line": 9,
+                    "column": 21
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "$missingFormat",
+                    "(format: $missingFormat)",
+                    "dateStr(format: $missingFormat)",
+                    "posts(pagination: {limit: 3}, sort: {by: ID, order: ASC}) { ... }",
+                    "query ($missingFormat: String) { ... }"
+                ],
+                "type": "Post",
+                "field": "dateStr(format: $missingFormat)",
+                "code": "gql@5.4.2.1[b]",
+                "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Required-Arguments"
+            }
+        }
+    ],
+    "data": {
+        "posts": [
+            {
+                "id": 1,
+                "dateStr": null
+            },
+            {
+                "id": 13,
+                "dateStr": null
+            },
+            {
+                "id": 16,
+                "dateStr": null
+            }
+        ]
+    }
+}

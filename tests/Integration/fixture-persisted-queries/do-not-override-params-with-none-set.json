@@ -1,0 +1,21 @@
+{
+    "data": {
+        "postTags": [
+            {
+                "id": 13,
+                "slug": "wordpress",
+                "name": "wordpress"
+            },
+            {
+                "id": 12,
+                "slug": "security",
+                "name": "security"
+            },
+            {
+                "id": 11,
+                "slug": "release",
+                "name": "release"
+            }
+        ]
+    }
+}

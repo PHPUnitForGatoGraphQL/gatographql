@@ -1,0 +1,15 @@
+query GetTypeFields {
+  __schema {
+    types {
+      name
+      namespacedName: name(namespaced: true)
+      fields(
+        includeDeprecated: true
+      ) {
+        name
+      }
+      kind
+      description
+    }
+  }
+}

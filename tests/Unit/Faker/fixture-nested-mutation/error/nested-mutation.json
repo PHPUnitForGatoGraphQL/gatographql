@@ -1,0 +1,28 @@
+{
+  "errors": [
+    {
+      "message": "Use the operation 'mutation' to mutate data",
+      "locations": [
+        {
+          "line": 3,
+          "column": 5
+        }
+      ],
+      "extensions": {
+        "type": "Post",
+        "field": "addComment(input: {comment: \"Great insight!\", authorName: \"Leo\", authorEmail: \"leo@saronga.com\"}) { ... }",
+        "path": [
+          "addComment(input: {comment: \"Great insight!\", authorName: \"Leo\", authorEmail: \"leo@saronga.com\"}) { ... }",
+          "customPost(by: {id: 1724}) { ... }",
+          "query { ... }"
+        ],
+        "code": "PoP/ComponentModel@2"
+      }
+    }
+  ],
+  "data": {
+    "customPost": {
+      "addComment": null
+    }
+  }
+}

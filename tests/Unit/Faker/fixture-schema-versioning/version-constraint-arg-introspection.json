@@ -1,0 +1,516 @@
+{
+    "data": {
+        "__schema": {
+            "types": [
+                {
+                    "kind": "OBJECT",
+                    "name": "MutationRoot",
+                    "fields": [
+                        {
+                            "name": "dummyMutation",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "QueryRoot",
+                    "fields": [
+                        {
+                            "name": "globalID",
+                            "args": []
+                        },
+                        {
+                            "name": "helloWorld",
+                            "args": []
+                        },
+                        {
+                            "name": "id",
+                            "args": []
+                        },
+                        {
+                            "name": "self",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "Root",
+                    "fields": [
+                        {
+                            "name": "dummyMutation",
+                            "args": []
+                        },
+                        {
+                            "name": "globalID",
+                            "args": []
+                        },
+                        {
+                            "name": "helloWorld",
+                            "args": []
+                        },
+                        {
+                            "name": "id",
+                            "args": []
+                        },
+                        {
+                            "name": "self",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "_DirectiveExtensions",
+                    "fields": [
+                        {
+                            "name": "fieldDirectiveSupportedTypeNamesOrDescriptions",
+                            "args": []
+                        },
+                        {
+                            "name": "needsDataToExecute",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "_EnumValueExtensions",
+                    "fields": [
+                        {
+                            "name": "isSensitiveDataElement",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "_FieldExtensions",
+                    "fields": [
+                        {
+                            "name": "isGlobal",
+                            "args": []
+                        },
+                        {
+                            "name": "isMutation",
+                            "args": []
+                        },
+                        {
+                            "name": "isSensitiveDataElement",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "_InputValueExtensions",
+                    "fields": [
+                        {
+                            "name": "isSensitiveDataElement",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "_NamedTypeExtensions",
+                    "fields": [
+                        {
+                            "name": "elementName",
+                            "args": []
+                        },
+                        {
+                            "name": "isOneOf",
+                            "args": []
+                        },
+                        {
+                            "name": "namespacedName",
+                            "args": []
+                        },
+                        {
+                            "name": "possibleValues",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "_SchemaExtensions",
+                    "fields": [
+                        {
+                            "name": "isNamespaced",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "__Directive",
+                    "fields": [
+                        {
+                            "name": "args",
+                            "args": []
+                        },
+                        {
+                            "name": "description",
+                            "args": []
+                        },
+                        {
+                            "name": "extensions",
+                            "args": []
+                        },
+                        {
+                            "name": "globalID",
+                            "args": []
+                        },
+                        {
+                            "name": "id",
+                            "args": []
+                        },
+                        {
+                            "name": "isRepeatable",
+                            "args": []
+                        },
+                        {
+                            "name": "locations",
+                            "args": []
+                        },
+                        {
+                            "name": "name",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "__EnumValue",
+                    "fields": [
+                        {
+                            "name": "deprecationReason",
+                            "args": []
+                        },
+                        {
+                            "name": "description",
+                            "args": []
+                        },
+                        {
+                            "name": "extensions",
+                            "args": []
+                        },
+                        {
+                            "name": "globalID",
+                            "args": []
+                        },
+                        {
+                            "name": "id",
+                            "args": []
+                        },
+                        {
+                            "name": "isDeprecated",
+                            "args": []
+                        },
+                        {
+                            "name": "name",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "__Field",
+                    "fields": [
+                        {
+                            "name": "args",
+                            "args": []
+                        },
+                        {
+                            "name": "deprecationReason",
+                            "args": []
+                        },
+                        {
+                            "name": "description",
+                            "args": []
+                        },
+                        {
+                            "name": "extensions",
+                            "args": []
+                        },
+                        {
+                            "name": "globalID",
+                            "args": []
+                        },
+                        {
+                            "name": "id",
+                            "args": []
+                        },
+                        {
+                            "name": "isDeprecated",
+                            "args": []
+                        },
+                        {
+                            "name": "name",
+                            "args": []
+                        },
+                        {
+                            "name": "type",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "__InputValue",
+                    "fields": [
+                        {
+                            "name": "defaultValue",
+                            "args": []
+                        },
+                        {
+                            "name": "description",
+                            "args": []
+                        },
+                        {
+                            "name": "extensions",
+                            "args": []
+                        },
+                        {
+                            "name": "globalID",
+                            "args": []
+                        },
+                        {
+                            "name": "id",
+                            "args": []
+                        },
+                        {
+                            "name": "name",
+                            "args": []
+                        },
+                        {
+                            "name": "type",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "__Schema",
+                    "fields": [
+                        {
+                            "name": "directives",
+                            "args": [
+                                {
+                                    "name": "ofKinds"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "extensions",
+                            "args": []
+                        },
+                        {
+                            "name": "globalID",
+                            "args": []
+                        },
+                        {
+                            "name": "id",
+                            "args": []
+                        },
+                        {
+                            "name": "mutationType",
+                            "args": []
+                        },
+                        {
+                            "name": "queryType",
+                            "args": []
+                        },
+                        {
+                            "name": "subscriptionType",
+                            "args": []
+                        },
+                        {
+                            "name": "type",
+                            "args": [
+                                {
+                                    "name": "name"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "types",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "__Type",
+                    "fields": [
+                        {
+                            "name": "description",
+                            "args": []
+                        },
+                        {
+                            "name": "enumValues",
+                            "args": [
+                                {
+                                    "name": "includeDeprecated"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "extensions",
+                            "args": []
+                        },
+                        {
+                            "name": "fields",
+                            "args": [
+                                {
+                                    "name": "includeDeprecated"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "globalID",
+                            "args": []
+                        },
+                        {
+                            "name": "id",
+                            "args": []
+                        },
+                        {
+                            "name": "inputFields",
+                            "args": []
+                        },
+                        {
+                            "name": "interfaces",
+                            "args": []
+                        },
+                        {
+                            "name": "kind",
+                            "args": []
+                        },
+                        {
+                            "name": "name",
+                            "args": []
+                        },
+                        {
+                            "name": "ofType",
+                            "args": []
+                        },
+                        {
+                            "name": "possibleTypes",
+                            "args": []
+                        },
+                        {
+                            "name": "specifiedByURL",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "SCALAR",
+                    "name": "Boolean",
+                    "fields": null,
+                    "inputFields": null
+                },
+                {
+                    "kind": "SCALAR",
+                    "name": "ID",
+                    "fields": null,
+                    "inputFields": null
+                },
+                {
+                    "kind": "SCALAR",
+                    "name": "Int",
+                    "fields": null,
+                    "inputFields": null
+                },
+                {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "fields": null,
+                    "inputFields": null
+                },
+                {
+                    "kind": "INTERFACE",
+                    "name": "IdentifiableObject",
+                    "fields": [
+                        {
+                            "name": "globalID",
+                            "args": []
+                        },
+                        {
+                            "name": "id",
+                            "args": []
+                        }
+                    ],
+                    "inputFields": null
+                },
+                {
+                    "kind": "ENUM",
+                    "name": "DirectiveKindEnum",
+                    "fields": null,
+                    "inputFields": null
+                },
+                {
+                    "kind": "ENUM",
+                    "name": "DirectiveLocation",
+                    "fields": null,
+                    "inputFields": null
+                },
+                {
+                    "kind": "ENUM",
+                    "name": "TypeKind",
+                    "fields": null,
+                    "inputFields": null
+                }
+            ],
+            "directives": [
+                {
+                    "name": "cacheControl",
+                    "args": [
+                        {
+                            "name": "maxAge"
+                        }
+                    ]
+                },
+                {
+                    "name": "helloWorld",
+                    "args": []
+                },
+                {
+                    "name": "include",
+                    "args": [
+                        {
+                            "name": "if"
+                        }
+                    ]
+                },
+                {
+                    "name": "skip",
+                    "args": [
+                        {
+                            "name": "if"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

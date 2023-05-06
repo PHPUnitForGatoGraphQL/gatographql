@@ -1,0 +1,26 @@
+{
+  "errors": [
+    {
+      "message": "There is no field 'addCommentToCustomPost' on type 'QueryRoot'",
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ],
+      "extensions": {
+        "type": "QueryRoot",
+        "field": "addCommentToCustomPost(input: {comment: \"Great insight!\", customPostID: 1724, authorName: \"Leo\", authorEmail: \"leo@saronga.com\"}) { ... }",
+        "path": [
+          "addCommentToCustomPost(input: {comment: \"Great insight!\", customPostID: 1724, authorName: \"Leo\", authorEmail: \"leo@saronga.com\"}) { ... }",
+          "query { ... }"
+        ],
+        "code": "gql@5.3.1",
+        "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Field-Selections"
+      }
+    }
+  ],
+  "data": {
+    "addCommentToCustomPost": null
+  }
+}

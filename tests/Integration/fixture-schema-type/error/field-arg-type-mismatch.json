@@ -1,0 +1,77 @@
+{
+    "errors": [
+        {
+            "message": "Cannot cast value 'Sixty' for type 'Int'",
+            "locations": [
+                {
+                    "line": 4,
+                    "column": 34
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "\"Sixty\"",
+                    "(size: \"Sixty\")",
+                    "passingString: avatar(size: \"Sixty\") { ... }",
+                    "user(by: {id: 1}) { ... }",
+                    "query { ... }"
+                ],
+                "type": "User",
+                "field": "passingString: avatar(size: \"Sixty\") { ... }",
+                "code": "gql@5.6.1[16]",
+                "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Values-of-Correct-Type"
+            }
+        },
+        {
+            "message": "Cannot cast value '24.5' for type 'Int'",
+            "locations": [
+                {
+                    "line": 7,
+                    "column": 32
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "24.5",
+                    "(size: 24.5)",
+                    "passingFloat: avatar(size: 24.5) { ... }",
+                    "user(by: {id: 1}) { ... }",
+                    "query { ... }"
+                ],
+                "type": "User",
+                "field": "passingFloat: avatar(size: 24.5) { ... }",
+                "code": "gql@5.6.1[16]",
+                "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Values-of-Correct-Type"
+            }
+        },
+        {
+            "message": "Cannot cast value '' for type 'Int'",
+            "locations": [
+                {
+                    "line": 10,
+                    "column": 31
+                }
+            ],
+            "extensions": {
+                "path": [
+                    "false",
+                    "(size: false)",
+                    "passingBool: avatar(size: false) { ... }",
+                    "user(by: {id: 1}) { ... }",
+                    "query { ... }"
+                ],
+                "type": "User",
+                "field": "passingBool: avatar(size: false) { ... }",
+                "code": "gql@5.6.1[16]",
+                "specifiedBy": "https:\/\/spec.graphql.org\/draft\/#sec-Values-of-Correct-Type"
+            }
+        }
+    ],
+    "data": {
+        "user": {
+            "passingString": null,
+            "passingFloat": null,
+            "passingBool": null
+        }
+    }
+}

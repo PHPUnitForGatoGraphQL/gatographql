@@ -1,0 +1,16 @@
+query GetTypeInfoByIntrospection {
+  __schema {
+    categoryUnionType: type(name: "CategoryUnion") {
+      name
+      possibleTypes {
+        name
+      }
+    }
+    categoryTaxonomyEnumType: type(name: "CategoryTaxonomyEnumString") {
+      name
+      extensions {
+        possibleValues
+      }
+    }
+  }
+}
