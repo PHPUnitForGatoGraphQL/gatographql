@@ -1,0 +1,41 @@
+{
+    "data": {
+        "__schema": {
+            "customPostUnionType": {
+                "name": "CustomPostUnion",
+                "possibleTypes": [
+                    {
+                        "name": "GenericCustomPost"
+                    },
+                    {
+                        "name": "Page"
+                    },
+                    {
+                        "name": "Post"
+                    }
+                ]
+            },
+            "customPostEnumType": {
+                "name": "CustomPostEnumString",
+                "extensions": {
+                    "possibleValues": [
+                        "attachment",
+                        "custom_css",
+                        "customize_changeset",
+                        "nav_menu_item",
+                        "oembed_cache",
+                        "page",
+                        "post",
+                        "revision",
+                        "user_request",
+                        "wp_block",
+                        "wp_global_styles",
+                        "wp_navigation",
+                        "wp_template",
+                        "wp_template_part"
+                    ]
+                }
+            }
+        }
+    }
+}
