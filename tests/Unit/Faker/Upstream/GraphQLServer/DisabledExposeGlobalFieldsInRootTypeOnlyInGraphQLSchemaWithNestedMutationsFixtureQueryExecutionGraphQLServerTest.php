@@ -1,0 +1,12 @@
+<?php
+
+declare(strict_types=1);
+
+namespace PHPUnitForGatoGraphQL\GatoGraphQL\Unit\Faker\Upstream\GraphQLServer;
+
+use GraphQLByPoP\GraphQLServer\Unit\DisabledFixtureQueryExecutionGraphQLServerTestCaseTrait;
+
+class DisabledExposeGlobalFieldsInRootTypeOnlyInGraphQLSchemaWithNestedMutationsFixtureQueryExecutionGraphQLServerTest extends AbstractExposeGlobalFieldsInRootTypeOnlyInGraphQLSchemaWithNestedMutationsFixtureQueryExecutionGraphQLServerTestCase
+{
+    use DisabledFixtureQueryExecutionGraphQLServerTestCaseTrait;
+}
