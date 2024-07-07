@@ -8,7 +8,7 @@ use GatoGraphQL\GatoGraphQL\Services\Blocks\SchemaConfigPayloadTypesForMutations
 use GraphQLByPoP\GraphQLServer\Configuration\MutationPayloadTypeOptions;
 use PHPUnitForGatoGraphQL\GatoGraphQL\Integration\AbstractModifyCPTBlockAttributesFixtureEndpointWebserverRequestTestCase;
 
-class SchemaPayloadTypesForMutationsOnSchemaConfigurationCPTBlockAttributesFixtureEndpointWebserverRequestTest extends AbstractModifyCPTBlockAttributesFixtureEndpointWebserverRequestTestCase
+class SchemaPayloadTypesForMutationsWithObjectFieldsOnSchemaConfigurationCPTBlockAttributesFixtureEndpointWebserverRequestTest extends AbstractModifyCPTBlockAttributesFixtureEndpointWebserverRequestTestCase
 {
     public const MOBILE_APP_SCHEMA_CONFIGURATION_ID = 193;
 
@@ -25,7 +25,7 @@ class SchemaPayloadTypesForMutationsOnSchemaConfigurationCPTBlockAttributesFixtu
 
     protected static function getFixtureFolder(): string
     {
-        return __DIR__ . '/fixture-schema-payload-types-for-mutations';
+        return __DIR__ . '/fixture-schema-payload-types-for-mutations-with-object-fields';
     }
 
     /**
@@ -34,7 +34,7 @@ class SchemaPayloadTypesForMutationsOnSchemaConfigurationCPTBlockAttributesFixtu
     protected function getCPTBlockAttributesNewValue(): array
     {
         return [
-            SchemaConfigPayloadTypesForMutationsBlock::ATTRIBUTE_NAME_USE_PAYLOAD_TYPE => MutationPayloadTypeOptions::DO_NOT_USE_PAYLOAD_TYPES_FOR_MUTATIONS,
+            SchemaConfigPayloadTypesForMutationsBlock::ATTRIBUTE_NAME_USE_PAYLOAD_TYPE => MutationPayloadTypeOptions::USE_AND_QUERY_PAYLOAD_TYPES_FOR_MUTATIONS,
         ];
     }
 

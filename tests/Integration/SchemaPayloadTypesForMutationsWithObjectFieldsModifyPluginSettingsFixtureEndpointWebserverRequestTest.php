@@ -8,7 +8,7 @@ use GatoGraphQL\GatoGraphQL\ModuleResolvers\SchemaConfigurationFunctionalityModu
 use GraphQLByPoP\GraphQLServer\Configuration\MutationPayloadTypeOptions;
 use PHPUnitForGatoGraphQL\GatoGraphQL\Integration\AbstractModifyPluginSettingsFixtureEndpointWebserverRequestTestCase;
 
-class SchemaPayloadTypesForMutationsModifyPluginSettingsFixtureEndpointWebserverRequestTest extends AbstractModifyPluginSettingsFixtureEndpointWebserverRequestTestCase
+class SchemaPayloadTypesForMutationsWithObjectFieldsModifyPluginSettingsFixtureEndpointWebserverRequestTest extends AbstractModifyPluginSettingsFixtureEndpointWebserverRequestTestCase
 {
     protected static function getEndpoint(): string
     {
@@ -17,7 +17,7 @@ class SchemaPayloadTypesForMutationsModifyPluginSettingsFixtureEndpointWebserver
 
     protected static function getFixtureFolder(): string
     {
-        return __DIR__ . '/fixture-schema-payload-types-for-mutations';
+        return __DIR__ . '/fixture-schema-payload-types-for-mutations-with-object-fields';
     }
 
     protected function getSettingsKey(): string
@@ -32,6 +32,6 @@ class SchemaPayloadTypesForMutationsModifyPluginSettingsFixtureEndpointWebserver
 
     protected function getPluginSettingsNewValue(): mixed
     {
-        return MutationPayloadTypeOptions::DO_NOT_USE_PAYLOAD_TYPES_FOR_MUTATIONS;
+        return MutationPayloadTypeOptions::USE_AND_QUERY_PAYLOAD_TYPES_FOR_MUTATIONS;
     }
 }
